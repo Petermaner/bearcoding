@@ -50,7 +50,7 @@ paicoding:
     secret: hello_world # 签名密钥
     expire: 2592000000 # jwt的有效期，默认30天
 
-# 默认的数据库名
+# 默认的数据库名 test
 database:
   name: my_new_try
 

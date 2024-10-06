@@ -1,8 +1,9 @@
 <h1 id="kmeWx">智汇 - 知识付费社区</h1>
 <h2 id="VNIHx">定位：知识付费博客/论坛/社区</h2>
-![](https://pic1.zhimg.com/80/v2-f2392ddfc075c692879edd0d4efca895_720w.png)
 
-ps: 图标由AIGC生成：ailogomaker.io + modelscope.cn
+[![logo.png](https://i.postimg.cc/1RqpgNpj/logo.png)](https://postimg.cc/c6dK2CkR)   
+ps1: 图标由AIGC生成：ailogomaker.io + modelscope.cn   
+ps2: 免费托管图床postimg.cc
 <h2 id="NXrwV">竞品：</h2>
 知乎 Live：知乎是一个中国的问答社区，知乎 Live 是其推出的付费直播讲座服务。
 
@@ -46,6 +47,7 @@ LinkedIn Learning：领英推出的在线学习平台，提供各种职业相关
 admin管理后台
 
 <h3 id="dIBP6">微信公众号：爱婆小屋</h3>
+
 ![](https://cdn.nlark.com/yuque/0/2024/jpeg/1203091/1728245476969-4c5125f9-a9cc-451a-bf27-3fbfce8c7dda.jpeg?x-oss-process=image%2Fformat%2Cwebp)
 
 <h2 id="Cj1ub">本地部署（Windows）</h2>
@@ -77,7 +79,9 @@ admin管理后台
   - <font style="color:rgb(131, 131, 142);">DDOS防御：</font>**<font style="color:rgb(131, 131, 142);">5G</font>**
   - <font style="color:rgb(131, 131, 142);">轻量机型不支持安装win系统</font>
 + 安装系统
-+ 设置安全组【保证公网端口访问】![](https://cdn.nlark.com/yuque/0/2024/png/1203091/1728121129089-8b3b2433-4b7b-4513-b356-7ff8a3876446.png)
++ 设置安全组【保证公网端口访问】
+
+![](https://cdn.nlark.com/yuque/0/2024/png/1203091/1728121129089-8b3b2433-4b7b-4513-b356-7ff8a3876446.png)
 + mobaXterm ssh连接服务器【可操作性更好，有文件目录】
 
 <h3 id="BQDn3">环境搭建</h3>

@@ -1,5 +1,6 @@
-<h3 id="dIBP6">扫码关注公众号：爱婆小屋</h3>
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/1203091/1728028386355-4e5109db-5f23-4bfe-9635-59110cffdfd5.jpeg)
+<h3 id="dIBP6">【扫码关注公众号：爱婆小屋】</h3>
+![](https://cdn.nlark.com/yuque/0/2024/jpeg/1203091/1728245476969-4c5125f9-a9cc-451a-bf27-3fbfce8c7dda.jpeg)
+
 <h1 id="kmeWx">智汇 - 知识付费社区</h1>
 <h2 id="VNIHx">定位：知识付费博客/论坛/社区</h2>
 <h2 id="NXrwV">竞品：</h2>

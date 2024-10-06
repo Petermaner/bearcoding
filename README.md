@@ -1,8 +1,8 @@
-<h3 id="dIBP6">【扫码关注公众号：爱婆小屋】</h3>
-![](https://cdn.nlark.com/yuque/0/2024/jpeg/1203091/1728245476969-4c5125f9-a9cc-451a-bf27-3fbfce8c7dda.jpeg)
-
 <h1 id="kmeWx">智汇 - 知识付费社区</h1>
 <h2 id="VNIHx">定位：知识付费博客/论坛/社区</h2>
+![](https://pic1.zhimg.com/80/v2-f2392ddfc075c692879edd0d4efca895_720w.png)
+
+ps: 图标由AIGC生成：ailogomaker.io + modelscope.cn
 <h2 id="NXrwV">竞品：</h2>
 知乎 Live：知乎是一个中国的问答社区，知乎 Live 是其推出的付费直播讲座服务。
 
@@ -45,11 +45,8 @@ LinkedIn Learning：领英推出的在线学习平台，提供各种职业相关
 <h3 id="xTJOX">管理员</h3>
 admin管理后台
 
-
-
-
-
-
+<h3 id="dIBP6">微信公众号：爱婆小屋</h3>
+![](https://cdn.nlark.com/yuque/0/2024/jpeg/1203091/1728245476969-4c5125f9-a9cc-451a-bf27-3fbfce8c7dda.jpeg?x-oss-process=image%2Fformat%2Cwebp)
 
 <h2 id="Cj1ub">本地部署（Windows）</h2>
 <h3 id="xWScW">环境搭建</h3>

@@ -19,7 +19,7 @@
     </appender>
 
     <!-- 当出现error异常日志时，邮件报警   -->
-    <appender name="errorAlarm" class="com.github.paicoding.forum.core.util.AlarmUtil">
+    <appender name="errorAlarm" class="com.github.bearcoding.forum.core.util.AlarmUtil">
         <!--如果只是想要 Error 级别的日志，那么需要过滤一下，默认是 info 级别的，ThresholdFilter-->
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
             <level>ERROR</level>
@@ -92,7 +92,7 @@
     <!-- 指定项目中某个包，当有日志操作行为时的日志记录级别 -->
     <!-- 级别依次为【从高到低】：FATAL > ERROR > WARN > INFO > DEBUG > TRACE  -->
     <!-- additivity=false 表示匹配之后，不再继续传递给其他的logger-->
-    <logger name="com.github.paicoding.forum" level="INFO" additivity="false">
+    <logger name="com.github.bearcoding.forum" level="INFO" additivity="false">
         <appender-ref ref="service"/>
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="errorAlarm"/>

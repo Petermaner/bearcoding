@@ -1,26 +1,26 @@
 <p align="center">
-  <a href="https://paicoding.com/">
+  <a href="https://bearcoding.com/">
     <img src="https://cdn.tobebetterjavaer.com/images/README/1681354262213.png" alt="技术派" width="400">
   </a>
 </p>
 一个基于 Spring Boot、MyBatis-Plus、MySQL、Redis、ElasticSearch、MongoDB、Docker、RabbitMQ 等技术栈实现的社区系统，采用主流的互联网技术架构、全新的UI设计、支持一键源码部署，拥有完整的文章&教程发布/搜索/评论/统计流程等，代码完全开源，没有任何二次封装，是一个非常适合二次开发/实战的现代化社区项目👍 。
 <br><br>
 <p align="center">
-  <a href="https://paicoding.com/article/detail/15"><img src="https://img.shields.io/badge/技术派-学习圈子-brightgreen.svg?style=for-the-badge"></a>
-  <a href="https://paicoding.com/" target="_blank"><img src="https://img.shields.io/badge/技术派-首页-critical?style=for-the-badge"></a>
-  <a href="https://github.com/itwanger/paicoding-admin" target="_blank"><img src="https://img.shields.io/badge/技术派-管理端-yellow.svg?style=for-the-badge"></a>
-  <a href="https://gitee.com/itwanger/paicoding" target="_blank"><img src="https://img.shields.io/badge/技术派-码云地址-blue.svg?style=for-the-badge"></a>
+  <a href="https://bearcoding.com/article/detail/15"><img src="https://img.shields.io/badge/技术派-学习圈子-brightgreen.svg?style=for-the-badge"></a>
+  <a href="https://bearcoding.com/" target="_blank"><img src="https://img.shields.io/badge/技术派-首页-critical?style=for-the-badge"></a>
+  <a href="https://github.com/itwanger/bearcoding-admin" target="_blank"><img src="https://img.shields.io/badge/技术派-管理端-yellow.svg?style=for-the-badge"></a>
+  <a href="https://gitee.com/itwanger/bearcoding" target="_blank"><img src="https://img.shields.io/badge/技术派-码云地址-blue.svg?style=for-the-badge"></a>
 </p>
 
 
 ## 一、配套服务
  
-1. **技术派网址**：[https://paicoding.com](https://paicoding.com)
-2. **技术派教程**：[https://paicoding.com/column](https://paicoding.com/column) 目前已更新高并发手册、JVM 手册、Java 并发编程手册、二哥的 Java 进阶之路，以及技术派部分免费教程。我们的宗旨是：**学编程，就上技术派**😁
-3. **技术派管理端源码**：[paicoding-admin](https://github.com/itwanger/paicoding-admin)
-4. **技术派专属学习圈子**：[不走弯路，少采坑，附 120 篇技术派全套教程](https://paicoding.com/article/detail/17) 
-5. **派聪明AI助手**：AI 时代，怎能掉队，欢迎体验 [技术派的派聪明 AI 助手](https://paicoding.com/chat)
-6. **码云仓库**：[https://gitee.com/itwanger/paicoding](https://gitee.com/itwanger/paicoding) （国内访问速度更快）
+1. **技术派网址**：[https://bearcoding.com](https://bearcoding.com)
+2. **技术派教程**：[https://bearcoding.com/column](https://bearcoding.com/column) 目前已更新高并发手册、JVM 手册、Java 并发编程手册、二哥的 Java 进阶之路，以及技术派部分免费教程。我们的宗旨是：**学编程，就上技术派**😁
+3. **技术派管理端源码**：[bearcoding-admin](https://github.com/itwanger/bearcoding-admin)
+4. **技术派专属学习圈子**：[不走弯路，少采坑，附 120 篇技术派全套教程](https://bearcoding.com/article/detail/17) 
+5. **派聪明AI助手**：AI 时代，怎能掉队，欢迎体验 [技术派的派聪明 AI 助手](https://bearcoding.com/chat)
+6. **码云仓库**：[https://gitee.com/itwanger/bearcoding](https://gitee.com/itwanger/bearcoding) （国内访问速度更快）
 
 ## 二、项目介绍
 
@@ -28,17 +28,17 @@
 
 #### 前台社区系统
 
-- 项目仓库（GitHub）：[https://github.com/itwanger/paicoding](https://github.com/itwanger/paicoding)
-- 项目仓库（码云）：[https://gitee.com/itwanger/paicoding](https://gitee.com/itwanger/paicoding)
-- 项目演示地址：[https://paicoding.com](https://paicoding.com)
+- 项目仓库（GitHub）：[https://github.com/itwanger/bearcoding](https://github.com/itwanger/bearcoding)
+- 项目仓库（码云）：[https://gitee.com/itwanger/bearcoding](https://gitee.com/itwanger/bearcoding)
+- 项目演示地址：[https://bearcoding.com](https://bearcoding.com)
 
 ![](https://cdn.tobebetterjavaer.com/images/20230602/d7d341c557e7470d9fb41245e5bb4209.png)
 
 #### 后台社区系统
 
-- 项目仓库（GitHub）：[https://github.com/itwanger/paicoding-admin](https://github.com/itwanger/paicoding-admin)
-- 项目仓库（码云）：[https://gitee.com/itwanger/paicoding-admin](https://gitee.com/itwanger/paicoding-admin)
-- 项目演示地址：[https://paicoding.com/admin-view](https://paicoding.com/admin/)
+- 项目仓库（GitHub）：[https://github.com/itwanger/bearcoding-admin](https://github.com/itwanger/bearcoding-admin)
+- 项目仓库（码云）：[https://gitee.com/itwanger/bearcoding-admin](https://gitee.com/itwanger/bearcoding-admin)
+- 项目演示地址：[https://bearcoding.com/admin-view](https://bearcoding.com/admin/)
 
 ![](https://cdn.tobebetterjavaer.com/images/20230602/83139e13a4784c0fbf0adedd8e287c5b.png)
 
@@ -51,27 +51,27 @@
 
 #### 系统架构图
 
-![](https://cdn.tobebetterjavaer.com/paicoding/3da165adfcad0f03d40e13e941ed4afb.png)
+![](https://cdn.tobebetterjavaer.com/bearcoding/3da165adfcad0f03d40e13e941ed4afb.png)
 
 
 #### 业务架构图
 
-![](https://cdn.tobebetterjavaer.com/paicoding/main/paicoding-business.jpg)
+![](https://cdn.tobebetterjavaer.com/bearcoding/main/bearcoding-business.jpg)
 
 ### 组织结构
 
 ```
-paicoding
-├── paicoding-api -- 定义一些通用的枚举、实体类，定义 DO\DTO\VO 等
-├── paicoding-core -- 核心工具/组件相关模块，如工具包 util， 通用的组件都放在这个模块（以包路径对模块功能进行拆分，如搜索、缓存、推荐等）
-├── paicoding-service -- 服务模块，业务相关的主要逻辑，DB 的操作都在这里
-├── paicoding-ui -- HTML 前端资源（包括 JavaScript、CSS、Thymeleaf 等）
-├── paicoding-web -- Web模块、HTTP入口、项目启动入口，包括权限身份校验、全局异常处理等
+bearcoding
+├── bearcoding-api -- 定义一些通用的枚举、实体类，定义 DO\DTO\VO 等
+├── bearcoding-core -- 核心工具/组件相关模块，如工具包 util， 通用的组件都放在这个模块（以包路径对模块功能进行拆分，如搜索、缓存、推荐等）
+├── bearcoding-service -- 服务模块，业务相关的主要逻辑，DB 的操作都在这里
+├── bearcoding-ui -- HTML 前端资源（包括 JavaScript、CSS、Thymeleaf 等）
+├── bearcoding-web -- Web模块、HTTP入口、项目启动入口，包括权限身份校验、全局异常处理等
 ```
 
 #### 环境配置说明
 
-资源配置都放在 `paicoding-web` 模块的资源路径下，通过maven的env进行环境选择切换
+资源配置都放在 `bearcoding-web` 模块的资源路径下，通过maven的env进行环境选择切换
 
 当前提供了四种开发环境
 
@@ -138,26 +138,26 @@ mvn clean install -DskipTests=true -Pprod
 
 ## 三、技术派教程
 技术派教程共 120+ 篇，从中整理出 20 篇，供大家免费学习。
-- [（🌟 新人必看）技术派系统架构&功能模块一览](https://paicoding.com/article/detail/15)
-- [（🌟 新人必看）小白如何学习技术派](https://paicoding.com/article/detail/366)
-- [（🌟 新人必看）如何将技术派写入简历](https://paicoding.com/article/detail/373)
-- [（🌟 新人必看）技术派架构方案设计](https://paicoding.com/column/6/5)
-- [（🌟 新人必看）技术派技术方案设计](https://paicoding.com/article/detail/208)
-- [（🌟 新人必看）技术派项目管理流程](https://paicoding.com/article/detail/445)
-- [（🌟 新人必看）技术派MVC分层架构](https://paicoding.com/article/detail/446)
-- [（🌟 新人必看）技术派项目工程搭建手册](https://paicoding.com/article/detail/459)
-- [（👍 强烈推荐）技术派微信公众号自动登录](https://paicoding.com/article/detail/448)
-- [（👍 强烈推荐）技术派微信扫码登录实现](https://paicoding.com/article/detail/453)
-- [（👍 强烈推荐）技术派Session/Cookie身份验证识别](https://paicoding.com/article/detail/449)
-- [（👍 强烈推荐）技术派Mysql/Redis缓存一致性](https://paicoding.com/column/6/3)
-- [（👍 强烈推荐）技术派Redis实现用户活跃排行榜](https://paicoding.com/article/detail/454)
-- [（👍 强烈推荐）技术派消息队列RabbitMQ](https://paicoding.com/column/6/2)
-- [（👍 强烈推荐）技术派消息队列RabbitMQ连接池](https://paicoding.com/column/6/1)
-- [（👍 强烈推荐）技术派消息队列Kafka](https://paicoding.com/article/detail/460)
-- [（👍 强烈推荐）技术派Cancal实现MySQL和ES同步](https://paicoding.com/column/6/8)
-- [（👍 强烈推荐）技术派ES实现查询](https://paicoding.com/article/detail/341)
-- [（👍 强烈推荐）技术派定时任务实现](https://paicoding.com/article/detail/457)
-- [（👍 扬帆起航）送给坚持到最后的自己，一起杨帆起航](https://paicoding.com/article/detail/447)
+- [（🌟 新人必看）技术派系统架构&功能模块一览](https://bearcoding.com/article/detail/15)
+- [（🌟 新人必看）小白如何学习技术派](https://bearcoding.com/article/detail/366)
+- [（🌟 新人必看）如何将技术派写入简历](https://bearcoding.com/article/detail/373)
+- [（🌟 新人必看）技术派架构方案设计](https://bearcoding.com/column/6/5)
+- [（🌟 新人必看）技术派技术方案设计](https://bearcoding.com/article/detail/208)
+- [（🌟 新人必看）技术派项目管理流程](https://bearcoding.com/article/detail/445)
+- [（🌟 新人必看）技术派MVC分层架构](https://bearcoding.com/article/detail/446)
+- [（🌟 新人必看）技术派项目工程搭建手册](https://bearcoding.com/article/detail/459)
+- [（👍 强烈推荐）技术派微信公众号自动登录](https://bearcoding.com/article/detail/448)
+- [（👍 强烈推荐）技术派微信扫码登录实现](https://bearcoding.com/article/detail/453)
+- [（👍 强烈推荐）技术派Session/Cookie身份验证识别](https://bearcoding.com/article/detail/449)
+- [（👍 强烈推荐）技术派Mysql/Redis缓存一致性](https://bearcoding.com/column/6/3)
+- [（👍 强烈推荐）技术派Redis实现用户活跃排行榜](https://bearcoding.com/article/detail/454)
+- [（👍 强烈推荐）技术派消息队列RabbitMQ](https://bearcoding.com/column/6/2)
+- [（👍 强烈推荐）技术派消息队列RabbitMQ连接池](https://bearcoding.com/column/6/1)
+- [（👍 强烈推荐）技术派消息队列Kafka](https://bearcoding.com/article/detail/460)
+- [（👍 强烈推荐）技术派Cancal实现MySQL和ES同步](https://bearcoding.com/column/6/8)
+- [（👍 强烈推荐）技术派ES实现查询](https://bearcoding.com/article/detail/341)
+- [（👍 强烈推荐）技术派定时任务实现](https://bearcoding.com/article/detail/457)
+- [（👍 扬帆起航）送给坚持到最后的自己，一起杨帆起航](https://bearcoding.com/article/detail/447)
 
 
 ## 四、环境搭建
@@ -214,18 +214,18 @@ mvn clean install -DskipTests=true -Pprod
 ## 五、友情链接
 
 - [toBeBetterjavaer](https://github.com/itwanger/toBeBetterJavaer) ：一份通俗易懂、风趣幽默的Java学习指南，内容涵盖Java基础、Java并发编程、Java虚拟机、Java企业级开发、Java面试等核心知识点。学Java，就认准二哥的Java进阶之路😄
-- [paicoding-admin](https://github.com/itwanger/paicoding-admin) ：🚀🚀🚀 paicoding-admin，技术派管理端，基于 React18、React-Router v6、React-Hooks、Redux、TypeScript、Vite3、Ant-Design 5.x、Hook Admin、ECharts 的一套社区管理系统，够惊艳哦。
+- [bearcoding-admin](https://github.com/itwanger/bearcoding-admin) ：🚀🚀🚀 bearcoding-admin，技术派管理端，基于 React18、React-Router v6、React-Hooks、Redux、TypeScript、Vite3、Ant-Design 5.x、Hook Admin、ECharts 的一套社区管理系统，够惊艳哦。
 
 ## 六、鸣谢
 
-技术派收到了 [Jetbrains](https://jb.gg/OpenSourceSupport) 多份 Licenses（详情戳 [这里](https://paicoding.com/article/detail/331) ），并已分配给项目 [活跃开发者](https://github.com/itwanger/paicoding/graphs/contributors) ，非常感谢 Jetbrains 对开源社区的支持。
+技术派收到了 [Jetbrains](https://jb.gg/OpenSourceSupport) 多份 Licenses（详情戳 [这里](https://bearcoding.com/article/detail/331) ），并已分配给项目 [活跃开发者](https://github.com/itwanger/bearcoding/graphs/contributors) ，非常感谢 Jetbrains 对开源社区的支持。
 
 ![JetBrains Logo (Main) logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg)
 
 
 ## 七、star 趋势图
 
-[![Star History Chart](https://api.star-history.com/svg?repos=itwanger/paicoding&type=Date)](https://star-history.com/#itwanger/paicoding&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=itwanger/bearcoding&type=Date)](https://star-history.com/#itwanger/bearcoding&Date)
 
 ## 八、公众号
 
@@ -237,7 +237,7 @@ GitHub 上标星 10000+ 的开源知识库《 [二哥的 Java 进阶之路](http
 
 ## 九、许可证
 
-[Apache License 2.0](https://github.com/itwanger/paicoding/edit/main/README.md)
+[Apache License 2.0](https://github.com/itwanger/bearcoding/edit/main/README.md)
 
 Copyright (c) 2022-2023 技术派（楼仔、沉默王二、一灰、小超）
 

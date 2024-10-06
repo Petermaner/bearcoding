@@ -40,7 +40,7 @@ security:
   salt: tech_π # 密码加盐, 更安全的做法是每个用户的密码使用独立的盐，并将其保存在用户表中
   salt-index: 3 # 盐插入的位置
 
-paicoding:
+bearcoding:
   sensitive: # 敏感词校验相关配置
     enable: true
     deny: # 自定义的敏感词，英文逗号分割
@@ -72,23 +72,23 @@ knife4j:
     version: 1.0.0
     concat:
       - 一灰灰 | 楼仔 | 沉默王二
-      - https://paicoding.com
-      - https://github.com/itwanger/paicoding
+      - https://bearcoding.com
+      - https://github.com/itwanger/bearcoding
     license: Apache License 2.0
-    license-url: https://github.com/itwanger/paicoding/blob/main/License
+    license-url: https://github.com/itwanger/bearcoding/blob/main/License
     email: bangzewu@126.com
     group:
       admin:
         group-name: 后台接口分组
         api-rule: package
         api-rule-resources:
-          - com.github.paicoding.forum.web.admin
+          - com.github.bearcoding.forum.web.admin
       front:
         group-name: 前台接口分组
         api-rule: package
         api-rule-resources:
-          - com.github.paicoding.forum.web.front
+          - com.github.bearcoding.forum.web.front
 
 logging:
   level:
-    com.github.paicoding.forum.service.rank.service.impl.*: debug # 指定具体包下的日志输出级别
+    com.github.bearcoding.forum.service.rank.service.impl.*: debug # 指定具体包下的日志输出级别

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.github.paicoding.forum.service.article.repository.mapper.ColumnArticleMapper">
+<mapper namespace="com.github.bearcoding.forum.service.article.repository.mapper.ColumnArticleMapper">
 
     <sql id="limit">
         <if test="pageParam != null">
@@ -8,7 +8,7 @@
         </if>
     </sql>
 
-    <select id="listColumnArticles" resultType="com.github.paicoding.forum.api.model.vo.article.dto.SimpleArticleDTO">
+    <select id="listColumnArticles" resultType="com.github.bearcoding.forum.api.model.vo.article.dto.SimpleArticleDTO">
         select
             ca.article_id as id,
             (case ca.read_type when 0 then ci.type else ca.read_type end) as `readType`,
@@ -23,7 +23,7 @@
             ca.`section` asc
     </select>
 
-    <select id="getColumnArticle" resultType="com.github.paicoding.forum.service.article.repository.entity.ColumnArticleDO">
+    <select id="getColumnArticle" resultType="com.github.bearcoding.forum.service.article.repository.entity.ColumnArticleDO">
         select article_id, `read_type` from column_article where column_id = #{columnId} and `section` = #{section} limit 1
     </select>
 
@@ -33,14 +33,14 @@
     </select>
 
     <select id="listColumnArticlesByColumnIdArticleName"
-            resultType="com.github.paicoding.forum.api.model.vo.article.dto.ColumnArticleDTO">
+            resultType="com.github.bearcoding.forum.api.model.vo.article.dto.ColumnArticleDTO">
         select c.id, c.article_id, a.title, a.short_title, c.column_id,
                col.column_name as `column`, col.cover as column_cover,
                c.`section` as sort, c.create_time
         from column_article as c
             left join article as a on c.article_id = a.id
             left join column_info as col on c.column_id = col.id
-        where a.deleted = ${@com.github.paicoding.forum.api.model.enums.YesOrNoEnum@NO.code}
+        where a.deleted = ${@com.github.bearcoding.forum.api.model.enums.YesOrNoEnum@NO.code}
             <if test="columnId != null and columnId != -1">
                 and c.column_id = #{columnId}
             </if>
@@ -56,7 +56,7 @@
         from column_article as c
             left join article as a on c.article_id = a.id
             left join column_info as col on c.column_id = col.id
-        where a.deleted = ${@com.github.paicoding.forum.api.model.enums.YesOrNoEnum@NO.code}
+        where a.deleted = ${@com.github.bearcoding.forum.api.model.enums.YesOrNoEnum@NO.code}
             <if test="columnId != null and columnId != -1">
                 and c.column_id = #{columnId}
             </if>

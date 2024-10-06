@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.github.paicoding.forum.service.user.repository.mapper.UserAiMapper">
+<mapper namespace="com.github.bearcoding.forum.service.user.repository.mapper.UserAiMapper">
 
     <sql id="limit">
         <if test="pageParam != null">
@@ -9,7 +9,7 @@
     </sql>
 
     <sql id="zsxqWhitesByParams">
-        where a.deleted = ${@com.github.paicoding.forum.api.model.enums.YesOrNoEnum@NO.code}
+        where a.deleted = ${@com.github.bearcoding.forum.api.model.enums.YesOrNoEnum@NO.code}
         <if test="searchParams.userCode != null and searchParams.userCode != ''">
             and u.user_name like concat('%', #{searchParams.userCode}, '%')
         </if>
@@ -25,7 +25,7 @@
     </sql>
 
     <select id="listZsxqUsersByParams"
-            resultType="com.github.paicoding.forum.api.model.vo.user.dto.ZsxqUserInfoDTO">
+            resultType="com.github.bearcoding.forum.api.model.vo.user.dto.ZsxqUserInfoDTO">
         select a.id, a.user_id, a.star_number, a.invite_code,
             a.invite_num, a.state, u.user_name as user_code,
             a.strategy, u.login_type,

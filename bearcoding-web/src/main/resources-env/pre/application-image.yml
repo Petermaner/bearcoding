@@ -5,7 +5,7 @@ image:
   oss:
     type: local
     endpoint:
-    prefix: paicoding/
+    prefix: bearcoding/
     ak:
     sk:
     bucket:

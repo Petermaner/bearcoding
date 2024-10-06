@@ -9,10 +9,10 @@ INSERT INTO article
 VALUES(14, 1, 1, '二哥的 Java 进阶之路.pdf 开放下载了，GitHub 星标 7700+，太赞了！', '', '', '小册名字：二哥的Java进阶之路小册作者：沉默王二小册品质：能在GitHub取得7600star自认为品质是有目共睹的，尤其是国内还有不少小伙伴在访问GitHub的时候很不顺利。小册风格：通俗易懂、风趣幽默、深度解析，新手可以拿来入门，老手可以拿来进阶，重要的知识，比如说面试高频的内容会从应用到源码挖个底朝天，还会穿插介绍一些计算机底层知识，力求讲个明白）小册简介：这是一份通俗易懂、风趣幽默的Java学习指南，内容涵', 1, 2, '', 1, 0, 0, 1, 0);
 INSERT INTO article
 (id, user_id, article_type, title, short_title, picture, summary, category_id, source, source_url, offical_stat, topping_stat, cream_stat, status, deleted)
-VALUES(15, 1, 1, '官宣：技术派上线了！⭐️一款好用又强大的开源社区，学编程，就上技术派?', '', 'https://cdn.tobebetterjavaer.com/paicoding/e95f60537f490bb96560aae25e2d53f0.jpg', '一个基于 Spring Boot、MyBatis-Plus、MySQL、Redis、ElasticSearch、MongoDB、Docker、RabbitMQ 等技术栈实现的社区系统，采用主流的互联网技术架构、全新的UI设计、支持一键源码部署，拥有完整的文章&教程发布/搜索/评论/统计流程等，代码完全开源，没有任何二次封装，是一个非常适合二次开发/实战的现代化社区项目? ', 1, 2, '', 1, 0, 0, 1, 0);
+VALUES(15, 1, 1, '官宣：技术派上线了！⭐️一款好用又强大的开源社区，学编程，就上技术派?', '', 'https://cdn.tobebetterjavaer.com/bearcoding/e95f60537f490bb96560aae25e2d53f0.jpg', '一个基于 Spring Boot、MyBatis-Plus、MySQL、Redis、ElasticSearch、MongoDB、Docker、RabbitMQ 等技术栈实现的社区系统，采用主流的互联网技术架构、全新的UI设计、支持一键源码部署，拥有完整的文章&教程发布/搜索/评论/统计流程等，代码完全开源，没有任何二次封装，是一个非常适合二次开发/实战的现代化社区项目? ', 1, 2, '', 1, 0, 0, 1, 0);
 INSERT INTO article
 (id, user_id, article_type, title, short_title, picture, summary, category_id, source, source_url, offical_stat, topping_stat, cream_stat, status, deleted)
-VALUES(16, 1, 1, '对标大厂的技术派详细方案设计，务必要看', '', 'https://cdn.tobebetterjavaer.com/paicoding/7f492cb729d944097d6676b7f19d3ff9.png', '这个项目诞生的背景和企业内生的需求不太一样，主要是某一天二哥说，“我们一起搞事吧”，楼仔问，“搞什么”，然后这个项目的需求就来了言归正传，我们主要的目的是希望打造一个切实可用的项目，依托于这个项目，将java从业者所用到的技术栈真实的展现出来，对于经验不是那么足的小伙伴，可以在一个真实的系统上，理解到自己学习的知识点是如何落地的，同时也能真实的了解一个项目是从0到1实现的全过程系统模块介绍系统架构基于社区系统的分层特点，将整个系统架构划分为展示层，应用层，服务层，如下图展示层其中展示层主要为用', 1, 2, '', 1, 0, 0, 1, 0);
+VALUES(16, 1, 1, '对标大厂的技术派详细方案设计，务必要看', '', 'https://cdn.tobebetterjavaer.com/bearcoding/7f492cb729d944097d6676b7f19d3ff9.png', '这个项目诞生的背景和企业内生的需求不太一样，主要是某一天二哥说，“我们一起搞事吧”，楼仔问，“搞什么”，然后这个项目的需求就来了言归正传，我们主要的目的是希望打造一个切实可用的项目，依托于这个项目，将java从业者所用到的技术栈真实的展现出来，对于经验不是那么足的小伙伴，可以在一个真实的系统上，理解到自己学习的知识点是如何落地的，同时也能真实的了解一个项目是从0到1实现的全过程系统模块介绍系统架构基于社区系统的分层特点，将整个系统架构划分为展示层，应用层，服务层，如下图展示层其中展示层主要为用', 1, 2, '', 1, 0, 0, 1, 0);
 INSERT INTO article
 (id, user_id, article_type, title, short_title, picture, summary, category_id, source, source_url, offical_stat, topping_stat, cream_stat, status, deleted)
 VALUES(17, 1, 1, '技术派的知识星球，开通啦！附 120 篇技术派的详细教程！', '', '', '大家好呀，我是楼仔。上周推出了我们的开源项目技术派，大家好评如潮，很多同学都想学习这个项目，为了更好带大家一起飞，我们今天正式推出技术派的知识星球。什么是知识星球呢？你可以理解为高品质社群，方便大家跟着我们一起学习。01星球介绍先来介绍下星球的三位联合创始人：楼仔：8年一线大厂后端经验（百度/小米/美团），技术派团队负责人，擅长高并发、架构、源码，有很强的项目/团队管理、职业规划能力。沉默王二：GitHub星标6400k开源知识库《Java程序员进阶之路》作者，CSDN两届博客之星，掘金/知乎Java领域优', 1, 2, '', 1, 0, 0, 1, 0);
@@ -80,11 +80,11 @@ VALUES(14, 2, '![](https://cdn.tobebetterjavaer.com/stutymore/readme-fengmian.pn
 
 ![](https://cdn.tobebetterjavaer.com/stutymore/readme-20230411102619.png)
 
-你也可以到技术派的[教程栏（戳这里）](https://paicoding.com/column)里阅读，目前正在连载更新中。
+你也可以到技术派的[教程栏（戳这里）](https://bearcoding.com/column)里阅读，目前正在连载更新中。
 
 ![](https://cdn.tobebetterjavaer.com/stutymore/readme-20230410215012.png)
 
->技术派是一个基于 Spring Boot、MyBatis-Plus、MySQL、Redis、ElasticSearch、MongoDB、Docker、RabbitMQ 等技术栈实现的社区系统，采用主流的互联网技术架构、全新的UI设计、支持一键源码部署，拥有完整的文章&教程发布/搜索/评论/统计流程等，[代码完全开源（可戳）](https://github.com/itwanger/paicoding)，没有任何二次封装，是一个非常适合二次开发/实战的现代化社区项目? 。
+>技术派是一个基于 Spring Boot、MyBatis-Plus、MySQL、Redis、ElasticSearch、MongoDB、Docker、RabbitMQ 等技术栈实现的社区系统，采用主流的互联网技术架构、全新的UI设计、支持一键源码部署，拥有完整的文章&教程发布/搜索/评论/统计流程等，[代码完全开源（可戳）](https://github.com/itwanger/bearcoding)，没有任何二次封装，是一个非常适合二次开发/实战的现代化社区项目? 。
 
 如果你在阅读过程中感觉这份小册写的还不错，甚至有亿点点收获，**请肆无忌惮地把这份小册分享给你的同事、同学、舍友、朋友，让他们也进步亿点点，赠人玫瑰手有余香嘛**。
 
@@ -264,7 +264,7 @@ VALUES(16, 1, '## 整体介绍
 ### 系统模块介绍
 #### 系统架构
 基于社区系统的分层特点，将整个系统架构划分为展示层，应用层，服务层，如下图
-![](https://cdn.tobebetterjavaer.com/paicoding/05acc5c76bb87adbb5eb1a3e4e4f5f5c.png)
+![](https://cdn.tobebetterjavaer.com/bearcoding/05acc5c76bb87adbb5eb1a3e4e4f5f5c.png)
 
 #### 展示层
 其中展示层主要为用户直接接触的视图层，基于用户角色，分别提供为面向普通用户的前台与面向管理员的后台

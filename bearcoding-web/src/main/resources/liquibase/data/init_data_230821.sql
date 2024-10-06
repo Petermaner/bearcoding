@@ -10,7 +10,7 @@ VALUES ('view.site.starInfo', '## 该文档仅「二哥的编程星球」VIP 用
 5. 简历修改：提供简历修改服务，附赠星球 100+优质简历模板可供参考
 6. 学习环境：打造一个沉浸式的学习环境，有一种高考冲刺、大学考研的氛围
 
-![](https://cdn.tobebetterjavaer.com/paicoding/153ba04898384c0c6b03dfe6ce1cbe76.jpg)
+![](https://cdn.tobebetterjavaer.com/bearcoding/153ba04898384c0c6b03dfe6ce1cbe76.jpg)
 
 
 > 步骤①：微信扫描上方二维码，点击「加入知识星球」按钮

@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # test
-WEB_PATH="paicoding-web"
-JAR_NAME="paicoding-web-0.0.1-SNAPSHOT.jar"
+WEB_PATH="bearcoding-web"
+JAR_NAME="bearcoding-web-0.0.1-SNAPSHOT.jar"
 
 # 部署
 function start() {

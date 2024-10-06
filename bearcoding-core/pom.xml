@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>paicoding-forum</artifactId>
-        <groupId>com.github.paicoding.forum</groupId>
+        <artifactId>bearcoding-forum</artifactId>
+        <groupId>com.github.bearcoding.forum</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>paicoding-core</artifactId>
+    <artifactId>bearcoding-core</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -18,8 +18,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.paicoding.forum</groupId>
-            <artifactId>paicoding-api</artifactId>
+            <groupId>com.github.bearcoding.forum</groupId>
+            <artifactId>bearcoding-api</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.liuyueyi.media</groupId>

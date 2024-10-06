@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.core.dal;
 import com.github.hui.quick.plugin.qrcode.util.ClassUtils;
 
 /**
- * @author YiHui
- * @date 2023/5/28
+ *
+ *
  */
 public class DruidCheckUtil {
 

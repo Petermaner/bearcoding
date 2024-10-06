@@ -1,6 +1,6 @@
 /**
- * @author YiHui
- * @date 2023/7/9
+ *
+ *
  */
 package com.github.bearcoding.forum.service.chatai;
 

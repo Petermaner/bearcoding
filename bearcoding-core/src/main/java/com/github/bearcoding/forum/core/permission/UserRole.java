@@ -1,8 +1,8 @@
 package com.github.bearcoding.forum.core.permission;
 
 /**
- * @author YiHui
- * @date 2022/8/25
+ *
+ *
  */
 public enum UserRole {
     /**

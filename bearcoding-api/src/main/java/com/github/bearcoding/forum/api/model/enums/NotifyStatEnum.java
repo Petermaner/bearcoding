@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.api.model.enums;
 import lombok.Getter;
 
 /**
- * @author YiHui
- * @date 2022/9/3
+ *
+ *
  */
 @Getter
 public enum NotifyStatEnum {

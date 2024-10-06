@@ -7,8 +7,8 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2022/9/14
+ *
+ *
  */
 @Data
 public class ColumnArticlesDTO {

@@ -30,8 +30,8 @@ import java.util.List;
 /**
  * 入口，直接运行即可
  *
- * @author yihui
- * @date 2022/7/6
+ *
+ *
  */
 @Slf4j
 @EnableAsync

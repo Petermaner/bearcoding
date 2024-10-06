@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 /**
  * 把简书的图片链接转到 GitHub CDN
  *
- * @author 微信搜「沉默王二」，回复关键字 Java
+ *
  */
 public class Convert {
 

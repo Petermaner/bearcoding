@@ -25,8 +25,8 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2022/9/2
+ *
+ *
  */
 @Repository
 public class ConfigDao extends ServiceImpl<ConfigMapper, ConfigDO> {

@@ -28,8 +28,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * 自定义的配置工厂类，专门用于 ConfDot 属性配置文件的配置加载，支持从自定义的配置源获取
  *
- * @author YiHui
- * @date 2023/6/20
+ *
+ *
  */
 @Slf4j
 @Component

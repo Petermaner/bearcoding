@@ -3,10 +3,10 @@ package com.github.bearcoding.forum.api.model.vo.config;
 import lombok.Data;
 
 /**
- * 微信搜索「沉默王二」，回复 Java
  *
- * @author 沉默王二
- * @date 6/30/23
+ *
+ *
+ *
  */
 @Data
 public class SearchGlobalConfigReq {

@@ -25,8 +25,8 @@ import javax.annotation.Resource;
 import java.util.Objects;
 
 /**
- * @author YiHui
- * @date 2022/9/2
+ *
+ *
  */
 @RestController
 @RequestMapping(path = "user/api")

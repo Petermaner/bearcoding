@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.api.model.enums;
 /**
  * websocket 连接 状态
  *
- * @author YiHui
- * @date 2023/6/12
+ *
+ *
  */
 public enum WsConnectStateEnum {
     // 初始化

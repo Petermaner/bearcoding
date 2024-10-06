@@ -9,8 +9,8 @@ import java.util.UUID;
  * <p>
  * 源码：<a href="https://github.com/apache/skywalking-java/blob/ddc68e27e2764ca6299f04ef21a5d864bf660deb/apm-sniffer/apm-agent-core/src/main/java/org/apache/skywalking/apm/agent/core/context/ids/GlobalIdGenerator.java"/>
  *
- * @author YiHui
- * @date 2023/5/29
+ *
+ *
  */
 public class SkyWalkingTraceIdGenerator {
     private static final String PROCESS_ID = UUID.randomUUID().toString().replaceAll("-", "");

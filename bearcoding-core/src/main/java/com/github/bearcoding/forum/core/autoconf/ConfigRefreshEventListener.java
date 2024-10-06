@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 /**
  * 配置刷新事件监听
  *
- * @author YiHui
- * @date 2023/09/14
+ *
+ *
  */
 @Service
 public class ConfigRefreshEventListener implements ApplicationListener<ConfigRefreshEvent> {

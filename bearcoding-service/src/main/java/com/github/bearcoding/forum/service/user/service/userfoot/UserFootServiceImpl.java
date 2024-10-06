@@ -23,8 +23,8 @@ import java.util.function.Supplier;
 /**
  * 用户足迹Service
  *
- * @author louzai
- * @date 2022-07-20
+ *
+ *
  */
 @Service
 public class UserFootServiceImpl implements UserFootService {

@@ -8,8 +8,8 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author YiHui
- * @date 2022/7/20
+ *
+ *
  */
 @Slf4j
 public class UserDaoTest extends BasicTest {

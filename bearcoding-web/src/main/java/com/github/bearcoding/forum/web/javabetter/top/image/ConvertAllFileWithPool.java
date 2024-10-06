@@ -14,10 +14,10 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 微信搜索「沉默王二」，回复 Java
  *
- * @author 沉默王二
- * @date 4/30/22
+ *
+ *
+ *
  */
 @Slf4j
 public class ConvertAllFileWithPool {

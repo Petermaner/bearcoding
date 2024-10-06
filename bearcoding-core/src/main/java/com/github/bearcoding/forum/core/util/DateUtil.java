@@ -7,8 +7,8 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
 /**
- * @author YiHui
- * @date 2022/8/25
+ *
+ *
  */
 public class DateUtil {
     public static final DateTimeFormatter UTC_FORMAT = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");

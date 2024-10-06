@@ -6,8 +6,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author YiHui
- * @date 2023/4/30
+ *
+ *
  */
 
 @Retention(RetentionPolicy.RUNTIME)

@@ -15,8 +15,8 @@ import java.util.stream.Collectors;
  * <p>
  * 生成规则参考 <a href="https://help.aliyun.com/document_detail/151840.html"/>
  *
- * @author YiHui
- * @date 2023/5/29
+ *
+ *
  */
 @Slf4j
 public class SelfTraceIdGenerator {

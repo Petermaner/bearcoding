@@ -1,8 +1,8 @@
 package com.github.bearcoding.forum.core.util;
 
 /**
- * @author YiHui
- * @date 2022/8/31
+ *
+ *
  */
 public class NumUtil {
 

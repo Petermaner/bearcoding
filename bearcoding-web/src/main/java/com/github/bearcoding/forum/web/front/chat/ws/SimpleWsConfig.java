@@ -9,8 +9,8 @@ import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry
 /**
  * v1.0 基础版本的websocket长连接相关配置
  *
- * @author YiHui
- * @date 2023/6/5
+ *
+ *
  */
 //@Configuration
 //@EnableWebSocket

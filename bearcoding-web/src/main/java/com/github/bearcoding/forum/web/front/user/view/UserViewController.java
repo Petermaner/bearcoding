@@ -38,8 +38,8 @@ import java.util.Objects;
 /**
  * 用户注册、取消，登录、登出
  *
- * @author louzai
- * @date : 2022/8/3 10:56
+ *
+ *
  **/
 @Controller
 @RequestMapping(path = "user")

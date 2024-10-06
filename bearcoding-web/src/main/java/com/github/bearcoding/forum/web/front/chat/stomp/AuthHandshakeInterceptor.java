@@ -19,8 +19,8 @@ import java.util.Map;
 /**
  * 握手拦截器, 用于身份验证识别
  *
- * @author YiHui
- * @date 2023/6/8
+ *
+ *
  */
 @Slf4j
 public class AuthHandshakeInterceptor extends HttpSessionHandshakeInterceptor {

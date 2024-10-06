@@ -5,8 +5,8 @@ import lombok.Getter;
 import java.util.Objects;
 
 /**
- * @author YiHui
- * @date 2023/1/31
+ *
+ *
  */
 public enum RoleEnum {
     NORMAL(0, "普通用户"),

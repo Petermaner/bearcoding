@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author YiHui
- * @date 2022/7/6
+ *
+ *
  */
 @Controller
 public class IndexController extends BaseViewController {

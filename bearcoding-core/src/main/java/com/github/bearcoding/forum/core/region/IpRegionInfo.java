@@ -8,8 +8,8 @@ import java.util.Objects;
 /**
  * ip区域信息
  *
- * @author YiHui
- * @date 2023/01/03
+ *
+ *
  */
 @Data
 public class IpRegionInfo {

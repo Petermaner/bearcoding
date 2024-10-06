@@ -5,8 +5,8 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * @author YiHui
- * @date 2022/10/13
+ *
+ *
  */
 public class Md5Util {
     private Md5Util() {

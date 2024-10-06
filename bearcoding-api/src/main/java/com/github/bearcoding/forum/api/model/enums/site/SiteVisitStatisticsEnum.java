@@ -6,8 +6,8 @@ import lombok.Getter;
 /**
  * 站点统计类型枚举
  *
- * @author YiHui
- * @date 2023/8/22
+ *
+ *
  */
 @AllArgsConstructor
 @Getter

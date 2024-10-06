@@ -8,8 +8,8 @@ import java.util.List;
 /**
  * 排行榜信息
  *
- * @author YiHui
- * @date 2023/8/19
+ *
+ *
  */
 @Data
 public class RankInfoDTO {

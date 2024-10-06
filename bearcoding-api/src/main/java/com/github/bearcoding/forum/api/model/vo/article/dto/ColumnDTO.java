@@ -6,8 +6,8 @@ import com.github.bearcoding.forum.api.model.vo.user.dto.ColumnFootCountDTO;
 import lombok.Data;
 
 /**
- * @author YiHui
- * @date 2022/9/14
+ *
+ *
  */
 @Data
 public class ColumnDTO {

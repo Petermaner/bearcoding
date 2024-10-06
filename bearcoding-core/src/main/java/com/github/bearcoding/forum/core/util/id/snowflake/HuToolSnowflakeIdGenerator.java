@@ -6,8 +6,8 @@ import java.util.Date;
 
 
 /**
- * @author YiHui
- * @date 2023/10/17
+ *
+ *
  */
 public class HuToolSnowflakeIdGenerator implements IdGenerator {
     private static final Date EPOC = new Date(2023, 1, 1);

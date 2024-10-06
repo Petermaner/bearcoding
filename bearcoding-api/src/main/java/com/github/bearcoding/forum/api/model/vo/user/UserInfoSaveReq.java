@@ -5,8 +5,8 @@ import lombok.Data;
 /**
  * 用户信息入参
  *
- * @author louzai
- * @date 2022-07-24
+ *
+ *
  */
 @Data
 public class UserInfoSaveReq {

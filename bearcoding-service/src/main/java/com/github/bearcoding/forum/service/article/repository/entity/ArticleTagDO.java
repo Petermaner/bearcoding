@@ -8,8 +8,8 @@ import lombok.EqualsAndHashCode;
 /**
  * 文章标签映射表
  *
- * @author louzai
- * @date 2022-07-18
+ *  
+ *
  */
 @Data
 @EqualsAndHashCode(callSuper = true)

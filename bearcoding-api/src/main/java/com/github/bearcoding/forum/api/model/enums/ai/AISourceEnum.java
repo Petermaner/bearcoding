@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.api.model.enums.ai;
 import lombok.Getter;
 
 /**
- * @author YiHui
- * @date 2023/6/9
+ *
+ *
  */
 @Getter
 public enum AISourceEnum {

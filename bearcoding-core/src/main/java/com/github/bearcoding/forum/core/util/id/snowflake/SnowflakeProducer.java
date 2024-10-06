@@ -12,8 +12,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * 基于雪花算法计算的id生成器
  *
- * @author YiHui
- * @date 2023/8/30
+ *
+ *
  */
 @Slf4j
 public class SnowflakeProducer {

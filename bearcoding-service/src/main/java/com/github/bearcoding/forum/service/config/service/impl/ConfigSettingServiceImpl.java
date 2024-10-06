@@ -20,8 +20,8 @@ import java.util.List;
 /**
  * Banner后台接口
  *
- * @author louzai
- * @date 2022-07-24
+ *
+ *
  */
 @Service
 public class ConfigSettingServiceImpl implements ConfigSettingService {

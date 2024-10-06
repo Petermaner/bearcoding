@@ -19,8 +19,8 @@ import java.util.Map;
 /**
  * 基于http的文件上传
  *
- * @author YiHui
- * @date 2023/11/10
+ *
+ *
  */
 @Slf4j
 @Component

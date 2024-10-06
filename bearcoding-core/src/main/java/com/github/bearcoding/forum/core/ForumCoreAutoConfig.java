@@ -17,8 +17,8 @@ import javax.annotation.PostConstruct;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author YiHui
- * @date 2022/9/4
+ *
+ *
  */
 @Configuration
 @EnableConfigurationProperties(ProxyProperties.class)

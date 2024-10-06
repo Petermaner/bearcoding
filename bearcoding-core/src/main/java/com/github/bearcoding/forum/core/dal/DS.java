@@ -1,8 +1,8 @@
 package com.github.bearcoding.forum.core.dal;
 
 /**
- * @author YiHui
- * @date 2023/4/30
+ *
+ *
  */
 public interface DS {
     /**

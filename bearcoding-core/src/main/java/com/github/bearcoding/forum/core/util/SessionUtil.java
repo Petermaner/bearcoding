@@ -10,8 +10,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2023/6/6
+ *
+ *
  */
 public class SessionUtil {
     private static final int COOKIE_AGE = 30 * 86400;

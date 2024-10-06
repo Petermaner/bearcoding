@@ -9,8 +9,8 @@ import org.springframework.messaging.support.ChannelInterceptor;
 /**
  * 权限拦截器，消息广播给用户的场景
  *
- * @author YiHui
- * @date 2023/6/8
+ *
+ *
  */
 @Slf4j
 public class AuthOutChannelInterceptor implements ChannelInterceptor {

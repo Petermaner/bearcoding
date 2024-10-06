@@ -7,8 +7,8 @@ import java.io.Serializable;
 /**
  * ip信息
  *
- * @author YiHui
- * @date 2022-12-29
+ *
+ *
  */
 @Data
 public class IpInfo implements Serializable {

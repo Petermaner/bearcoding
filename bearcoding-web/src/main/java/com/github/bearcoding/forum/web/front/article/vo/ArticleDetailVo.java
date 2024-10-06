@@ -10,8 +10,8 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2022/9/2
+ *
+ *
  */
 @Data
 public class ArticleDetailVo {

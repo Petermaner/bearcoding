@@ -10,8 +10,8 @@ import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
 /**
- * @author YiHui
- * @date 2022/8/29
+ *
+ *
  */
 @Component
 public class SpringUtil implements ApplicationContextAware, EnvironmentAware {

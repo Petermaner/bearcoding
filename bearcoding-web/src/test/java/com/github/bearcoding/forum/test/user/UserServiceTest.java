@@ -7,8 +7,8 @@ import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * @author YiHui
- * @date 2022/8/6
+ *
+ *
  */
 public class UserServiceTest extends BasicTest {
 

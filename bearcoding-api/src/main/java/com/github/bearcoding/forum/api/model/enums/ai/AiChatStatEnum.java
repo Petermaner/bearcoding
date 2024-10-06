@@ -1,8 +1,8 @@
 package com.github.bearcoding.forum.api.model.enums.ai;
 
 /**
- * @author YiHui
- * @date 2023/6/15
+ *
+ *
  */
 public enum AiChatStatEnum {
     IGNORE(-2) {

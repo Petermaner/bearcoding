@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 分类后台
  *
- * @author LouZai
- * @date 2022/9/19
+ *
+ *
  */
 @RestController
 @Permission(role = UserRole.LOGIN)

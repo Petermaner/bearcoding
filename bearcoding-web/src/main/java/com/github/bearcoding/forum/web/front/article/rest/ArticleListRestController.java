@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * 文章列表
  *
- * @author yihui
+ *
  */
 @RequestMapping(path = "article/api/list")
 @RestController

@@ -8,8 +8,8 @@ import lombok.Data;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2022/9/26
+ *
+ *
  */
 @Data
 public class ColumnVo {

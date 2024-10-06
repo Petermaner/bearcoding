@@ -5,8 +5,8 @@ import com.github.bearcoding.forum.api.model.vo.PageParam;
 import com.github.bearcoding.forum.api.model.vo.article.dto.ArticleDTO;
 
 /**
- * @author YiHui
- * @date 2022/9/26
+ *
+ *
  */
 public interface ArticleRecommendService {
     /**

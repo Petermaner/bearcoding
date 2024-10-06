@@ -14,10 +14,10 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * 微信搜索「沉默王二」，回复 Java
  *
- * @author 沉默王二
- * @date 3/27/23
+ *
+ *
+ *
  */
 @SpringBootTest(classes = QuickForumApplication.class)
 public class RedisTemplateDemo {
@@ -30,7 +30,7 @@ public class RedisTemplateDemo {
     @Test
     public void testPut() {
         //设置 key 和 value，并保存到 Redis 中
-        redisTemplate.opsForValue().set("itwanger", "沉默王二");
+        redisTemplate.opsForValue().set("bearcoding", "编程小熊");
         stringRedisTemplate.opsForList().rightPush("girl", "陈清扬");
         stringRedisTemplate.opsForList().rightPush("girl", "小转玲");
         stringRedisTemplate.opsForList().rightPush("girl", "茶花女");
@@ -39,7 +39,7 @@ public class RedisTemplateDemo {
     @Test
     public void testGet() {
         //从 Redis 中获取 key 对应的 value
-        Object value = redisTemplate.opsForValue().get("itwanger");
+        Object value = redisTemplate.opsForValue().get("bearcoding");
         System.out.println(value);
 
         List<String> girls = stringRedisTemplate.opsForList().range("girl", 0, -1);
@@ -54,8 +54,8 @@ public class RedisTemplateDemo {
             @Override
             public Object doInRedis(RedisConnection connection) throws DataAccessException {
                 // 执行 Redis 命令，例如 set 和 get 命令
-                connection.set("itwanger".getBytes(), "沉默王二".getBytes());
-                byte[] value = connection.get("itwanger".getBytes());
+                connection.set("bearcoding".getBytes(), "编程小熊".getBytes());
+                byte[] value = connection.get("bearcoding".getBytes());
                 String strValue = new String(value);
                 // 输出获取到的值
                 System.out.println(strValue);

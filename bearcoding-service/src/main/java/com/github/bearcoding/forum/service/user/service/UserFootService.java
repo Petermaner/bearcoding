@@ -13,8 +13,8 @@ import java.util.List;
 /**
  * 用户足迹Service接口
  *
- * @author louzai
- * @date 2022-07-20
+ *
+ *
  */
 public interface UserFootService {
     /**

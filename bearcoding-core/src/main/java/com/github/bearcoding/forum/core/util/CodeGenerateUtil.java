@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author YiHui
- * @date 2022/8/15
+ *
+ *
  */
 public class CodeGenerateUtil {
     public static final Integer CODE_LEN = 3;

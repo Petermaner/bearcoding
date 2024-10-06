@@ -19,8 +19,8 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * 微信公众号登录相关
  *
- * @author YiHui
- * @date 2022/9/2
+ *
+ *
  */
 @RequestMapping(path = "wx")
 @RestController

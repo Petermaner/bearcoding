@@ -5,8 +5,8 @@ import java.net.ServerSocket;
 import java.util.Random;
 
 /**
- * @author YiHui
- * @date 2022/11/26
+ *
+ *
  */
 public class SocketUtil {
 

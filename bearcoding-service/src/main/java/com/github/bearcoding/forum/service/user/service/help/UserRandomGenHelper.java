@@ -5,8 +5,8 @@ import java.util.Random;
 /**
  * 用户名生成器
  *
- * @author YiHui
- * @date 2022/9/27
+ *
+ *
  */
 public class UserRandomGenHelper {
     public static final String[] name_decorate = new String[]{
@@ -56,7 +56,7 @@ public class UserRandomGenHelper {
 
     private static final int AVATAR_NUM = 92;
 
-    private static final String AVATAR_TEMPLATE = "https://cdn.tobebetterjavaer.com/bearcoding/avatar/%04d.png";
+    private static final String AVATAR_TEMPLATE = "https://cdn.tobebetterjavaer.com/paicoding/avatar/%04d.png";
 
     /**
      * 昵称自动生成器

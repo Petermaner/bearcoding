@@ -17,8 +17,8 @@ import java.util.Set;
 /**
  * 配置变更注册, 找到 @Value 注解修饰的配置，注册到 SpringValueRegistry，实现统一的配置变更自动刷新管理
  *
- * @author YiHui
- * @date 2023/6/26
+ *
+ *
  */
 @Slf4j
 @Component

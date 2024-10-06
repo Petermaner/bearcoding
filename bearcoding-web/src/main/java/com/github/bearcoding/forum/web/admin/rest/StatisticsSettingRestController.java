@@ -15,8 +15,8 @@ import java.util.List;
 /**
  * 数据统计后台
  *
- * @author LouZai
- * @date 2022/9/19
+ *
+ *
  */
 @RestController
 @Permission(role = UserRole.LOGIN)

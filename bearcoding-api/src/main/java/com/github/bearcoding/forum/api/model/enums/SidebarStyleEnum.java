@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.api.model.enums;
 import lombok.Getter;
 
 /**
- * @author YiHui
- * @date 2022/9/6
+ *
+ *
  */
 @Getter
 public enum SidebarStyleEnum {

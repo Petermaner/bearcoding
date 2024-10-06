@@ -5,8 +5,8 @@ import com.github.bearcoding.forum.api.model.enums.ai.AISourceEnum;
 import java.time.LocalDate;
 
 /**
- * @author YiHui
- * @date 2023/6/2
+ *
+ *
  */
 public final class ChatConstants {
     /**

@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.service.image.service;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author LouZai
- * @date 2022/9/7
+ *
+ *
  */
 public interface ImageService {
     /**

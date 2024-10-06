@@ -5,8 +5,8 @@ import com.github.bearcoding.forum.api.model.vo.user.dto.BaseUserInfoDTO;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2023/4/9
+ *
+ *
  */
 public interface AuthorWhiteListService {
 

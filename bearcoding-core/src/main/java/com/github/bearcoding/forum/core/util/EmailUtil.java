@@ -7,8 +7,8 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import javax.mail.internet.MimeMessage;
 
 /**
- * @author YiHui
- * @date 2023/3/19
+ *
+ *
  */
 @Slf4j
 public class EmailUtil {

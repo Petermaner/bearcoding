@@ -5,8 +5,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author YiHui
- * @date 2022/7/6
+ *
+ *
  */
 @Configuration
 @ComponentScan("com.github.bearcoding.forum.service")

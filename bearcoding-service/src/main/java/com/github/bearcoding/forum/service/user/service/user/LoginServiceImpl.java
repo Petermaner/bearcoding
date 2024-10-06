@@ -26,8 +26,8 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * 基于验证码、用户名密码的登录方式
  *
- * @author YiHui
- * @date 2022/8/15
+ *
+ *
  */
 @Service
 @Slf4j

@@ -12,8 +12,8 @@ import java.util.stream.Collectors;
 /**
  * Banner转换
  *
- * @author louzai
- * @date 2022-09-20
+ *
+ *
  */
 public class ConfigConverter {
 

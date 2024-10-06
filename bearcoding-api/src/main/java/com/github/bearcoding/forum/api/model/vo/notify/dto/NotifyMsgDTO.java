@@ -6,8 +6,8 @@ import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
- * @author YiHui
- * @date 2022/9/4
+ *
+ *
  */
 @Data
 public class NotifyMsgDTO implements Serializable {

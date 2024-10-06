@@ -7,10 +7,10 @@ import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 /**
- * 微信搜索「沉默王二」，回复 Java
  *
- * @author 沉默王二
- * @date 6/29/23
+ *
+ *
+ *
  */
 @Mapper
 public interface UserStructMapper {

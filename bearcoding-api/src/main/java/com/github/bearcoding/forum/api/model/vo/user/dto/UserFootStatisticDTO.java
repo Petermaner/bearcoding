@@ -6,7 +6,7 @@ import lombok.ToString;
 /**
  * 用户主页信息
  *
- * @author 沉默王二
+ *
  * @since 2023年05月25日
  */
 @Data

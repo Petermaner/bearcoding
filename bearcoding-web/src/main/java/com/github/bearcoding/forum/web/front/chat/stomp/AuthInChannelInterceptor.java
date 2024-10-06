@@ -18,8 +18,8 @@ import java.util.Map;
 /**
  * 权限拦截器，消息发送前进行拦截
  *
- * @author YiHui
- * @date 2023/6/8
+ *
+ *
  */
 @Slf4j
 public class AuthInChannelInterceptor implements ChannelInterceptor {

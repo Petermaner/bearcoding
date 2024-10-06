@@ -41,8 +41,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * 用于一些功能测试的入口，默认都使用从库，不支持修改数据
  *
- * @author YiHui
- * @date 2023/3/19
+ *
+ *
  */
 @Slf4j
 @DsAno(MasterSlaveDsEnum.SLAVE)

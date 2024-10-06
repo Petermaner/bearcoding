@@ -18,8 +18,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author YiHui
- * @date 2022/9/26
+ *
+ *
  */
 @Service
 public class ArticleRecommendServiceImpl implements ArticleRecommendService {

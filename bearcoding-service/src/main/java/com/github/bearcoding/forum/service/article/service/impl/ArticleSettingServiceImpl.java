@@ -33,8 +33,8 @@ import java.util.function.Supplier;
 /**
  * 文章后台
  *
- * @author louzai
- * @date 2022-09-19
+ *
+ *
  */
 @Service
 public class ArticleSettingServiceImpl implements ArticleSettingService {

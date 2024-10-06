@@ -5,8 +5,8 @@ import com.github.bearcoding.forum.api.model.vo.user.UserPwdLoginReq;
 /**
  * 用户注册服务
  *
- * @author YiHui
- * @date 2023/6/26
+ *
+ *
  */
 public interface RegisterService {
     /**

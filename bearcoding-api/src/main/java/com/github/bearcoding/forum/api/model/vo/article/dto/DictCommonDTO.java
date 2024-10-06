@@ -5,8 +5,8 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @author YiHui
- * @date 2022/7/24
+ *
+ *
  */
 @Data
 public class DictCommonDTO implements Serializable {

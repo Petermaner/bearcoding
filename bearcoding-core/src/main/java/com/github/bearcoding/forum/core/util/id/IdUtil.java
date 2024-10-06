@@ -8,8 +8,8 @@ import com.github.bearcoding.forum.core.util.id.snowflake.SnowflakeProducer;
 import static com.github.bearcoding.forum.core.util.CompressUtil.int2str;
 
 /**
- * @author YiHui
- * @date 2023/8/30
+ *
+ *
  */
 public class IdUtil {
     /**

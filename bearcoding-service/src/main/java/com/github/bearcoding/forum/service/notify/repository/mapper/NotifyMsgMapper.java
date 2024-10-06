@@ -9,8 +9,8 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2022/9/3
+ *
+ *
  */
 public interface NotifyMsgMapper extends BaseMapper<NotifyMsgDO> {
 

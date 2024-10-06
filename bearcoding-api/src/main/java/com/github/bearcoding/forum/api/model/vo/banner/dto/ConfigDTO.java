@@ -7,8 +7,8 @@ import lombok.Data;
 /**
  * Banner
  *
- * @author louzai
- * @date 2022-09-17
+ *
+ *
  */
 @Data
 public class ConfigDTO extends BaseDTO {

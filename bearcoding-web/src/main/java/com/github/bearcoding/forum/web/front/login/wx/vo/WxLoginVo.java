@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.web.front.login.wx.vo;
 import lombok.Data;
 
 /**
- * @author YiHui
- * @date 2022/9/5
+ *
+ *
  */
 @Data
 public class WxLoginVo {

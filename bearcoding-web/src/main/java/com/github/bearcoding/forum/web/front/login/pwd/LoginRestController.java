@@ -23,8 +23,8 @@ import java.util.Optional;
 /**
  * 用户名 密码方式的登录/登出的入口
  *
- * @author YiHui
- * @date 2022/8/15
+ *
+ *
  */
 @RestController
 @RequestMapping

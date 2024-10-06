@@ -1,8 +1,8 @@
 package com.github.bearcoding.forum.service.chatai.service;
 
 /**
- * @author YiHui
- * @date 2023/6/2
+ *
+ *
  */
 public interface ChatgptService {
 

@@ -27,8 +27,8 @@ import java.io.InputStream;
 /**
  * 阿里云oss文件上传
  *
- * @author YiHui
- * @date 2023/1/12
+ *
+ *
  */
 @Slf4j
 @ConditionalOnExpression(value = "#{'ali'.equals(environment.getProperty('image.oss.type'))}")

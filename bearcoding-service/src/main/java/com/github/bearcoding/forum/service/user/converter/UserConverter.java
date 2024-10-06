@@ -19,8 +19,8 @@ import org.springframework.beans.BeanUtils;
 /**
  * 用户转换
  *
- * @author louzai
- * @date 2022-07-20
+ *
+ *
  */
 public class UserConverter {
 

@@ -22,8 +22,8 @@ import java.util.Map;
 /**
  * 当配置了多数据源时，启用
  *
- * @author YiHui
- * @date 2023/4/30
+ *
+ *
  */
 @Slf4j
 @Configuration

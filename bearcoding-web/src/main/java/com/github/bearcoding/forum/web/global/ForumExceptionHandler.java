@@ -28,8 +28,8 @@ import java.io.IOException;
  * 全局异常处理
  * fixme: 除了这种姿势之外，还可以使用 ControllerAdvice 注解方式
  *
- * @author YiHui
- * @date 2022/9/3
+ *
+ *
  */
 @Slf4j
 @Order(-100)

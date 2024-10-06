@@ -8,8 +8,8 @@ import com.github.bearcoding.forum.api.model.vo.article.dto.CategoryDTO;
 /**
  * 分类后台接口
  *
- * @author louzai
- * @date 2022-09-17
+ *
+ *
  */
 public interface CategorySettingService {
 

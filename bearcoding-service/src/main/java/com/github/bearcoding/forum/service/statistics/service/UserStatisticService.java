@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.service.statistics.service;
 /**
  * 用户统计服务
  *
- * @author YiHui
- * @date 2023/3/26
+ *
+ *
  */
 public interface UserStatisticService {
     /**

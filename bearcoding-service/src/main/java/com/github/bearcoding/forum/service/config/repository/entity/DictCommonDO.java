@@ -12,7 +12,7 @@ import lombok.experimental.Accessors;
  * 通用数据字典
  * </p>
  *
- * @author liudongshan
+ *
  * @since 2021-05-31
  */
 @Data

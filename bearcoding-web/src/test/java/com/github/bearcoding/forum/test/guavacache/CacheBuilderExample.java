@@ -8,10 +8,10 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 微信搜索「沉默王二」，回复 Java
  *
- * @author 沉默王二
- * @date 3/15/23
+ *
+ *
+ *
  */
 public class CacheBuilderExample {
     public static void main(String[] args) throws ExecutionException {

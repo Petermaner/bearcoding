@@ -15,8 +15,8 @@ import org.springframework.web.socket.server.support.HttpSessionHandshakeInterce
 /**
  * v1.1 stomp协议的websocket实现的chatgpt聊天方式
  *
- * @author YiHui
- * @date 2023/6/5
+ *
+ *
  */
 @Slf4j
 @Configuration

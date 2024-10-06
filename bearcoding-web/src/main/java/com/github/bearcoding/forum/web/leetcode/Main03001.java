@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 微信搜索「沉默王二」，回复 Java
+ *
  *
  * 给定一个字符串 s 和一个字符串数组 words。 words 中所有字符串 长度相同。
  *
@@ -16,8 +16,8 @@ import java.util.List;
  *  例如，如果 words = ["ab","cd","ef"]， 那么 "abcdef"， "abefcd"，"cdabef"， "cdefab"，"efabcd"， 和 "efcdab" 都是串联子串。 "acdbef" 不是串联子串，因为他不是任何 words 排列的连接。
  * 返回所有串联子串在 s 中的开始索引。你可以以 任意顺序 返回答案。
  *
- * @author 沉默王二
- * @date 2/27/24
+ *
+ *
  */
 public class Main03001 {
     public static void main(String[] args) {

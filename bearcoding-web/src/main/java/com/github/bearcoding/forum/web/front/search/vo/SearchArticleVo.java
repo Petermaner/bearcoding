@@ -9,8 +9,8 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2022/10/28
+ *
+ *
  */
 @Data
 @ApiModel(value="文章信息")

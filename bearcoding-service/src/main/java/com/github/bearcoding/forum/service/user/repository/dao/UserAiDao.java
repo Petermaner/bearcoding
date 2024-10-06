@@ -21,8 +21,8 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2022/9/2
+ *
+ *
  */
 @Repository
 public class UserAiDao extends ServiceImpl<UserAiMapper, UserAiDO> {

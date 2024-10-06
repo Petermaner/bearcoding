@@ -10,8 +10,8 @@ import java.security.Principal;
 /**
  * 请求上下文，携带用户身份相关信息
  *
- * @author YiHui
- * @date 2022/7/6
+ *
+ *
  */
 public class ReqInfoContext {
     private static TransmittableThreadLocal<ReqInfo> contexts = new TransmittableThreadLocal<>();

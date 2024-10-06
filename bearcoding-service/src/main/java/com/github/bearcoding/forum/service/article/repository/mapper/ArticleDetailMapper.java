@@ -7,8 +7,8 @@ import org.apache.ibatis.annotations.Update;
 /**
  * 文章详情mapper接口
  *
- * @author louzai
- * @date 2022-07-18
+ *
+ *
  */
 public interface ArticleDetailMapper extends BaseMapper<ArticleDetailDO> {
 

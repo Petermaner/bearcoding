@@ -23,8 +23,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author YiHui
- * @date 2022/9/14
+ *
+ *
  */
 @Service
 public class ColumnServiceImpl implements ColumnService {

@@ -12,8 +12,8 @@ import java.util.regex.Pattern;
 /**
  * markdown文本中的图片识别
  *
- * @author YiHui
- * @date 2022/11/24
+ *
+ *
  */
 public class MdImgLoader {
     private static Pattern IMG_PATTERN = Pattern.compile("!\\[(.*?)\\]\\((.*?)\\)");

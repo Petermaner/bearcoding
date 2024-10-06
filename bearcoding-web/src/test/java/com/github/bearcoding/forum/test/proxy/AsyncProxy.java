@@ -10,8 +10,8 @@ import org.springframework.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 
 /**
- * @author YiHui
- * @date 2023/2/28
+ *
+ *
  */
 public class AsyncProxy {
     private static final AsyncProxy instance = new AsyncProxy();

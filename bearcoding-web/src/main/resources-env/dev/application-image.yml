@@ -5,7 +5,7 @@ image:
   cdn-host:
   oss:
     type: local
-    prefix: bearcoding/
+    prefix: paicoding/
     endpoint:
     ak:
     sk:

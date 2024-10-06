@@ -17,8 +17,8 @@ import java.util.Map;
 /**
  * 字典Service
  *
- * @author louzai
- * @date 2022-07-20
+ *
+ *
  */
 @Service
 public class DictCommonServiceImpl implements DictCommonService {

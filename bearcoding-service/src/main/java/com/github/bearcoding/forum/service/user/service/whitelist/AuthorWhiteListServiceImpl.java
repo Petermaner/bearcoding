@@ -13,8 +13,8 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * @author YiHui
- * @date 2023/4/9
+ *
+ *
  */
 @Service
 public class AuthorWhiteListServiceImpl implements AuthorWhiteListService {

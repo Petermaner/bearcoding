@@ -7,8 +7,8 @@ import lombok.Getter;
 /**
  * 业务异常
  *
- * @author YiHui
- * @date 2022/9/2
+ *
+ *
  */
 public class ForumException extends RuntimeException {
     @Getter

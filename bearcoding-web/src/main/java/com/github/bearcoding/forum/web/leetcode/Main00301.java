@@ -1,10 +1,10 @@
 package com.github.bearcoding.forum.web.leetcode;
 
 /**
- * 微信搜索「沉默王二」，回复 Java
  *
- * @author 沉默王二
- * @date 12/12/23
+ *
+ *
+ *
  */
 import java.util.HashMap;
 import java.util.Scanner;

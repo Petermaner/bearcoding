@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.*;
 /**
  * Banner后台
  *
- * @author LouZai
- * @date 2022/9/19
+ *
+ *
  */
 @RestController
 @Permission(role = UserRole.LOGIN)

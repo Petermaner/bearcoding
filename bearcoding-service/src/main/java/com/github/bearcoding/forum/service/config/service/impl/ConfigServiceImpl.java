@@ -12,8 +12,8 @@ import java.util.List;
 /**
  * Banner前台接口
  *
- * @author louzai
- * @date 2022-07-24
+ *
+ *
  */
 @Service
 public class ConfigServiceImpl implements ConfigService {

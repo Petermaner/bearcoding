@@ -13,8 +13,8 @@ import java.util.Map;
 /**
  * 握手处理器
  *
- * @author YiHui
- * @date 2023/6/8
+ *
+ *
  */
 @Slf4j
 public class AuthHandshakeHandler extends DefaultHandshakeHandler {

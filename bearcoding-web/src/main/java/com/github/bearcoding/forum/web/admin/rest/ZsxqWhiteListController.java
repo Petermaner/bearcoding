@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 作者白名单服务
  *
- * @author YiHui
- * @date 2023/4/9
+ *
+ *
  */
 @RestController
 @Api(value = "星球用户白名单管理控制器", tags = "星球白名单")

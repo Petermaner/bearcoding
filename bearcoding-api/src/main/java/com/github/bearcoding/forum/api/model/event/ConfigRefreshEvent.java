@@ -9,8 +9,8 @@ import org.springframework.context.ApplicationEvent;
 /**
  * 配置变更消息事件
  *
- * @author YiHui
- * @date 2023/8/10
+ *
+ *
  */
 @Getter
 @Setter

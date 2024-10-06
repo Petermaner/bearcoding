@@ -5,7 +5,7 @@ import lombok.Getter;
 /**
  * 文档来源枚举
  *
- * @author louzai
+ *   louzai
  * @since 2022/7/19
  */
 @Getter

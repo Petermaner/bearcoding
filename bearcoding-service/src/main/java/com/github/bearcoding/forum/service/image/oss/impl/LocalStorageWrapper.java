@@ -22,8 +22,8 @@ import java.util.Random;
 /**
  * 本地保存上传文件
  *
- * @author YiHui
- * @date 2023/1/12
+ *
+ *
  */
 @Slf4j
 @ConditionalOnExpression(value = "#{'local'.equals(environment.getProperty('image.oss.type'))}")

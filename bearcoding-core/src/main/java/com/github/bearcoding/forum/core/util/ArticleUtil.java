@@ -7,8 +7,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author YiHui
- * @date 2022/12/23
+ *
+ *
  */
 public class ArticleUtil {
     private static final Integer MAX_SUMMARY_CHECK_TXT_LEN = 2000;

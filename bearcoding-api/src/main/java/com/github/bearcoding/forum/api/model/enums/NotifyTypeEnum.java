@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author YiHui
- * @date 2022/9/3
+ *
+ *
  */
 @Getter
 public enum NotifyTypeEnum {

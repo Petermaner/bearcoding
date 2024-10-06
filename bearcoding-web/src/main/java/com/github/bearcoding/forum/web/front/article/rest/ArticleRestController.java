@@ -58,8 +58,8 @@ import java.util.concurrent.TimeoutException;
 /**
  * 返回json格式数据
  *
- * @author YiHui
- * @date 2022/9/2
+ *
+ *
  */
 @Slf4j
 @RequestMapping(path = "article/api")

@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.service.statistics.constants;
 /**
  * 用户相关的常量信息
  *
- * @author YiHui
- * @date 2023/8/25
+ *
+ *
  */
 public interface CountConstants {
 

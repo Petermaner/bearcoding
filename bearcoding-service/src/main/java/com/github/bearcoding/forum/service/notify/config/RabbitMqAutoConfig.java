@@ -14,8 +14,8 @@ import org.springframework.context.annotation.Configuration;
 import javax.annotation.Resource;
 
 /**
- * @author YiHui
- * @date 2023/6/9
+ *
+ *
  */
 @Configuration
 @ConditionalOnProperty(value = "rabbitmq.switchFlag")

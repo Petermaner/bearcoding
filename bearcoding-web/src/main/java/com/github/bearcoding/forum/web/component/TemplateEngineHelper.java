@@ -8,8 +8,8 @@ import org.thymeleaf.context.Context;
 import org.thymeleaf.spring5.SpringTemplateEngine;
 
 /**
- * @author YiHui
- * @date 2022/9/7
+ *
+ *
  */
 @Component
 public class TemplateEngineHelper {

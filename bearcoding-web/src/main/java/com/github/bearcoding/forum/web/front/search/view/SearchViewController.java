@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * 推荐服务接口
  *
- * @author YiHui
- * @date 2022/10/28
+ *
+ *
  */
 @Controller
 public class SearchViewController {

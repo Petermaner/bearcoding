@@ -5,8 +5,8 @@ import lombok.Data;
 /**
  * 文章足迹计数
  *
- * @author louzai
- * @date 2022-07-18
+ *
+ *
  */
 @Data
 public class ArticleFootCountDTO {

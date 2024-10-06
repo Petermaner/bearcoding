@@ -22,8 +22,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2022/9/14
+ *
+ *
  */
 @Repository
 public class ColumnDao extends ServiceImpl<ColumnInfoMapper, ColumnInfoDO> {

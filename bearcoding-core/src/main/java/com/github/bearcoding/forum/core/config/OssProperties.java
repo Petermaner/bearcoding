@@ -3,8 +3,8 @@ package com.github.bearcoding.forum.core.config;
 import lombok.Data;
 
 /**
- * @author YiHui
- * @date 2023/1/12
+ *
+ *
  */
 @Data
 public class OssProperties {

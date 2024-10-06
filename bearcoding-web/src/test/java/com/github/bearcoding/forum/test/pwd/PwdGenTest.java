@@ -6,8 +6,8 @@ import org.springframework.util.DigestUtils;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @author YiHui
- * @date 2023/2/10
+ *
+ *
  */
 public class PwdGenTest {
 

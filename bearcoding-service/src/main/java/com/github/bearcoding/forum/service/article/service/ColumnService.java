@@ -9,8 +9,8 @@ import com.github.bearcoding.forum.service.article.repository.entity.ColumnArtic
 import java.util.List;
 
 /**
- * @author YiHui
- * @date 2022/9/14
+ *
+ *
  */
 public interface ColumnService {
     /**

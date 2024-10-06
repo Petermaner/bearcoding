@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author yihui
- * @date 2022/7/6
+ *
+ *
  */
 public class CrossUtil {
     /**

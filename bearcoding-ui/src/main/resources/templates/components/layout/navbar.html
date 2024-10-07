@@ -134,7 +134,7 @@
                   <!--  调整为所有用户都可以直接看到管理后台  th:if="${#strings.equalsIgnoreCase(global.user.role, 'admin')}"-->
                   <!-- 本地环境的时候不显示，本地环境的时候通过后端直接启动管理后台 -->
                   <a
-                          th:if="${#strings.equals(global.env, 'prod')}"
+                          th:if="${!#strings.equals(global.env, 'open')}"
                           href="/admin/#/statistics/index"
                           target="_blank"
                           class="dropdown-item"
@@ -342,7 +342,7 @@
 
   <script
           src="/js/mock.js"
-          th:if="${!#strings.equals(global.env, 'prod')}"
+          th:if="${!#strings.equals(global.env, 'open')}"
   ></script>
   <script th:inline="javascript">
     // 是否自动刷新验证码
@@ -500,7 +500,7 @@
           } catch (e) {}
         }
 
-        if ([[${!#strings.equals(global.env, 'prod')}]]) {
+        if ([[${!#strings.equals(global.env, 'open')}]]) {
           $("#mockLogin").attr('data-verify-code', newCode);
           $("#mockLogin2").attr('data-verify-code', newCode);
         }

@@ -14,7 +14,7 @@ view:
     zsxqUrl: https://t.zsxq.com/BaWqn
     zsxqPosterUrl: https://picx.zhimg.com/80/v2-7bf1977860908056aeb569fff8db8615_720w.jpeg
     contactMeStarQrCode: https://pic1.zhimg.com/80/v2-2a0caa7ce18ea1b0549ed9cca075ab9c_720w.jpeg?source=d16d100b
-    oss: https://cdn.tobebetterjavaer.com/bearcoding/static
+    oss: # 这里没有oss图床，必须设置为空，也就是本地存储；另外profiles的oss优先与顶层的yml
 
 knife4j:
   production: true # 开启屏蔽文档资源

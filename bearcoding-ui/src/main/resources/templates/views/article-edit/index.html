@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
   <div th:replace="components/layout/header :: head(~{::title}, ~{}, ~{})">
-    <title th:text="${global.siteInfo.websiteName}">技术派 - 文章发表</title>
+    <title th:text="${global.siteInfo.websiteName}">智汇 - 文章发表</title>
   </div>
 
   <link rel="stylesheet" href="/editormd/css/editormd.css" th:href="${global.siteInfo.oss + '/editormd/css/editormd.css'}" />
@@ -17,7 +17,7 @@
           type="text"
           class="edit-title-input"
           th:value="${vo.article != null ? vo.article.title: ''}"
-          placeholder="输入文章标题..."
+          placeholder="输入文章标题...(5个字以上)"
           oninput="showSaveBtnByTitle()"
         />
       </form>

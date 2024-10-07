@@ -54,8 +54,8 @@ public class WxAckHelper {
             try {
                 textRes = chatgptService.chat(fromUser, content);
             } catch (Exception e) {
-                log.error("派聪明 访问异常! content: {}", content, e);
-                textRes = "派聪明 出了点小状况，请稍后再试!";
+                log.error("Smartbear 访问异常! content: {}", content, e);
+                textRes = "Smartbear 出了点小状况，请稍后再试!";
             }
         }
 

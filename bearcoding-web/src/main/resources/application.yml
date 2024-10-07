@@ -67,16 +67,16 @@ knife4j:
   setting:
     language: zh-CN
   openapi:
-    title: 技术派
-    description: 一个基于 Spring Boot、MyBatis-Plus、MySQL、Redis、ElasticSearch、MongoDB、Docker、RabbitMQ 等技术栈实现的社区系统，采用主流的互联网技术架构、全新的UI设计、支持一键源码部署，拥有完整的文章&教程发布/搜索/评论/统计流程等，代码完全开源，没有任何二次封装，是一个非常适合二次开发/实战的现代化社区项目👍 。
+    title: 智慧 - 知识付费社区
+    description: 一个采用前后端分离架构的知识付费社区项目，包括社区系统和管理系统，实现博客专栏免费/付费生态。
     version: 1.0.0
     concat:
       - 编程小熊
-      - https://bearcoding.com
-      - https://github.com/itwanger/bearcoding
+      - https://wangenhui.top
+      - https://github.com/Petermaner/bearcoding
     license: Apache License 2.0
-    license-url: https://github.com/itwanger/bearcoding/blob/main/License
-    email: bangzewu@126.com
+    license-url: https://github.com/Petermaner/bearcoding/blob/main/License
+    email: 1344243051@qq.com
     group:
       admin:
         group-name: 后台接口分组

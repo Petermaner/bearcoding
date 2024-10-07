@@ -2,7 +2,7 @@ view:
   site:
     needLoginArticleReadCount: 30 # 需要登录才能阅读的文章阅读次数
     zsxqArticleReadCount: 20 # 知识星球用户才能阅读的文章阅读次数统计间隔，单位：分钟
-    websiteName: 智汇 - 博客论坛
+    websiteName: 智汇-知识付费社区
     websiteLogoUrl: https://i.postimg.cc/MXsGLDQw/BearKing.jpg
     websiteFaviconIconUrl: https://i.postimg.cc/MXsGLDQw/BearKing.jpg
     zsxqUrl: https://bearcoding.com/article/detail/314
@@ -12,8 +12,8 @@ view:
     contactMeStarQrCode: https://pic1.zhimg.com/80/v2-2a0caa7ce18ea1b0549ed9cca075ab9c_720w.jpeg?source=d16d100b
     pageSize: 20
     cdnImgStyle:
-    websiteRecord: 开发中...
+    websiteRecord: 运行中...
     wxLoginUrl: http://weixin.qq.com/r/WxwpMefE-rqBraNS90lJ
     host: http://127.0.0.1:${server.port}
-    welcomeInfo: 欢迎来到智汇-博客论坛，戳<a href="/article/detail/15">全方位视角解读</a>了解我们
+    welcomeInfo: 欢迎来到智汇-知识付费社区，一起构建有深度的博客专栏管理生态
     oss:

@@ -23,7 +23,7 @@ import org.springframework.web.socket.server.support.HttpSessionHandshakeInterce
 @EnableWebSocketMessageBroker // 开启websocket代理
 public class WsChatConfig implements WebSocketMessageBrokerConfigurer {
     /**
-     * 这里定义的是客户端接收服务端消息的相关信息，如派聪明的回答： WsAnswerHelper#response 就是往 "/chat/rsp" 发送消息
+     * 这里定义的是客户端接收服务端消息的相关信息，如Smartbear的回答： WsAnswerHelper#response 就是往 "/chat/rsp" 发送消息
      * 对应的前端订阅的也是 chat/index.html: stompClient.subscribe(`/user/chat/rsp`, xxx)
      *
      * @param config

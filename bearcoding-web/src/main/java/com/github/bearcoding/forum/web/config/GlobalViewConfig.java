@@ -40,7 +40,7 @@ public class GlobalViewConfig {
     private String zsxqImgUrl;
 
     /**
-     * 知识星球二维码的地址，派聪明 AI助手用
+     * 知识星球二维码的地址，Smartbear AI助手用
      */
     private String zsxqPosterUrl;
 

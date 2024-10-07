@@ -3,7 +3,7 @@ package com.github.bearcoding.forum.api.model.enums.user;
 import lombok.Getter;
 
 /**
- * 派聪明用户状态枚举
+ * Smartbear用户状态枚举
  */
 @Getter
 public enum UserAIStatEnum {

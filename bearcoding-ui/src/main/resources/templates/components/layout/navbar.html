@@ -24,7 +24,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="/">首页</a>
               <a class="dropdown-item" href="/column">教程</a>
-              <a class="dropdown-item" href="/chat">派聪明</a>
+              <a class="dropdown-item" href="/chat" th:if="${false}">Smartbear</a>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@
                   th:class="${'nav-item' + (#strings.equals(global.currentDomain, 'chat') ? ' selected-domain' : '')}"
                   class="nav-item"
           >
-            <a class="nav-link" href="/chat">派聪明</a>
+            <a class="nav-link" href="/chat" th:if="${false}">Smartbear</a>
           </li>
         </ul>
       </div>
@@ -279,7 +279,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h6 class="modal-title">绑定二哥编程星球，畅享 VIP 尊享服务！</h6>
+          <h6 class="modal-title">绑定编程小熊星球，畅享 VIP 尊享服务！</h6>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -292,12 +292,12 @@
                 <h1 class="title">
                   <a target="_blank"
                      class="underline"
-                     href="https://paicoding.com/article/detail/358">戳我了解如何获取星球编号，新窗口打开</a>
+                     href="https://paicoding.com/article/detail/358" th:if="${false}">戳我了解如何获取星球编号，新窗口打开</a>
                 </h1>
                 <form id="register-form">
                   <div class="form-group">
                     <input type="text"
-                           placeholder="星球编号，戳上面的链接有详细教程"
+                           placeholder="你的星球编号"
                            class="form-control form-control-sm"
                            required
                            id="starNumber"
@@ -305,15 +305,15 @@
                   </div>
                   <div class="form-group">
                     <input type="text"
-                           placeholder="用户名密码登录时用"
+                           placeholder="设置用户名"
                            class="form-control form-control-sm"
                            id="registerUser" required>
                   </div>
                   <div class="form-group">
-                    <input type="password" placeholder="密码，你自己能记得住的" class="form-control form-control-sm" id="registerPassword" required>
+                    <input type="password" placeholder="设置密码" class="form-control form-control-sm" id="registerPassword" required>
                   </div>
                   <div class="form-group">
-                    <input type="text" placeholder="微信回复邀请码获取，也可不填" class="form-control form-control-sm" id="invitationCode" autocomplete="off">
+                    <input type="text" placeholder="邀请码（选填）" class="form-control form-control-sm" id="invitationCode" autocomplete="off">
                   </div>
                   <!-- 绑定过会直接登录 -->
                   <button type="submit"
@@ -323,15 +323,15 @@
               </div>
             </div>
             <div class="tabpane-container">
-              <h2 class="title">添加二哥微信 itwanger 审核更快</h2>
+              <h2 class="title">添加编程小熊微信 审核更快</h2>
               <div class="first">
                 <img class="signin-qrcode" th:src="${global.siteInfo.contactMeStarQrCode}"/>
               </div>
 
               <div class="explain">
-                <bold>记得备注</bold>
+                <bold>请备注</bold>
                 <code>星球编号</code>
-                <div>我会根据星球编号进行审核</div>
+                <div>根据星球编号进行审核</div>
               </div>
             </div>
           </div>

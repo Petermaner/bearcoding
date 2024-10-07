@@ -25,7 +25,7 @@ $('#mockLogin').click(function () {
         method: 'POST',
         url: "/wx/callback",
         contentType: 'application/xml',
-        data: "<xml><URL><![CDATA[https://hhui.top]]></URL><ToUserName><![CDATA[一灰灰blog]]></ToUserName><FromUserName><![CDATA[demoUser1234]]></FromUserName><CreateTime>1655700579</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[" + code + "]]></Content><MsgId>11111111</MsgId></xml>",
+        data: "<xml><URL><![CDATA[https://www.wangenhui.top]]></URL><ToUserName><![CDATA[爱婆小屋]]></ToUserName><FromUserName><![CDATA[demoUser1234]]></FromUserName><CreateTime>1655700579</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[" + code + "]]></Content><MsgId>11111111</MsgId></xml>",
         success: function (data) {
             console.log("success data", data);
             if (data.status && data.status.code !== 0) {
@@ -47,7 +47,7 @@ $('#mockLogin2').click(function () {
         method: 'POST',
         url: "/wx/callback",
         contentType: 'application/xml',
-        data: "<xml><URL><![CDATA[https://hhui.top]]></URL><ToUserName><![CDATA[一灰灰blog]]></ToUserName><FromUserName><![CDATA[" + randUid + "]]></FromUserName><CreateTime>1655700579</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[" + code + "]]></Content><MsgId>11111111</MsgId></xml>",
+        data: "<xml><URL><![CDATA[https://www.wangenhui.top]]></URL><ToUserName><![CDATA[爱婆小屋]]></ToUserName><FromUserName><![CDATA[" + randUid + "]]></FromUserName><CreateTime>1655700579</CreateTime><MsgType><![CDATA[text]]></MsgType><Content><![CDATA[" + code + "]]></Content><MsgId>11111111</MsgId></xml>",
         success: function (data) {
             console.log("success data", data);
             if (data.status.code !== 0) {

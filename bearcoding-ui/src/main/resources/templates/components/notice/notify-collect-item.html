@@ -4,7 +4,7 @@
   <div th:fragment="notify_collect_item(msg)" class="notification">
     <a th:href="'/user/home?userId=' + ${msg.operateUserId}" target="_blank">
       <img
-        th:src="${msg.operateUserPhoto}"
+        th:src="'https://www.wangenhui.top/' + ${msg.operateUserPhoto}"
         class="notification-img"
         loading="lazy"
       />

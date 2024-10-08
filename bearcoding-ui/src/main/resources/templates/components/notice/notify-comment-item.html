@@ -3,7 +3,7 @@
 <!-- 消息通知 -->
 <div th:fragment="notify_comment_item(msg)" class="notification">
   <a th:href="'/user/home?userId=' + ${msg.operateUserId}" class="" target="_blank">
-    <img th:src="${msg.operateUserPhoto}" class="notification-img" loading="lazy" />
+    <img th:src="'https://www.wangenhui.top/' + ${msg.operateUserPhoto}" class="notification-img" loading="lazy" />
   </a>
   <div class="notification-right">
     <div class="notification-content">

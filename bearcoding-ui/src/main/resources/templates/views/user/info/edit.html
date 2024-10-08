@@ -98,7 +98,7 @@
                             </svg>
                             <div class="click-text">点击修改头像</div>
                         </div>
-                        <img th:src="${vo.userHome.photo}"
+                        <img th:src="@{/{photo}(photo=${vo.userHome.photo})}"
                              class="person-img"
                              id="pic"/>
                         <input type="file"

@@ -70,7 +70,7 @@ public class BaseUserInfoDTO extends BaseDTO {
     /**
      * 用户最后登录区域
      */
-    @ApiModelProperty(value = "用户最后登录的地理位置", example = "湖北·武汉")
+    @ApiModelProperty(value = "用户最后登录的地理位置", example = "四川·成都")
     private String region;
 
     /**

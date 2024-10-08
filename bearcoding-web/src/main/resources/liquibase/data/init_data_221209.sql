@@ -166,14 +166,14 @@ VALUES(1, 'a7cb7228-0f85-4dd5-845c-7c5df3746e92', 'admin', 'df3a4143b663a086d1c0
 
 INSERT INTO user_info
 (id, user_id, user_name, photo, `position`, company, profile, extend, deleted)
-VALUES(1, 1, '管理员', 'https://imgs.hhui.top/forum/avatar/0066.png', 'java', 'xm', '码农', '', 0);
+VALUES(1, 1, '管理员', 'https://pic1.zhimg.com/80/v2-2501db8a5e0c27824bc11ec10aec29ab_720w.jpeg?source=d16d100b', 'Java', '电子科技大学', 'Coder', '', 0);
 
 
 
 -- 准备数据
 INSERT INTO column_info
 (id, column_name, user_id, introduction, cover, state, publish_time, create_time, update_time)
-VALUES(1, '一灰灰的专栏', 1, '这里是小灰灰的技术专栏，欢迎关注', 'https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ba0bc79579c488eb79df93cecd12390~tplv-k3u1fbpfcp-watermark.image', 1, '2022-09-15 01:00:00', '2022-09-15 01:00:00', '2022-09-15 01:00:00');
+VALUES(1, '王恩慧的专栏', 1, '这里是王恩慧的技术专栏，欢迎关注', 'https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4ba0bc79579c488eb79df93cecd12390~tplv-k3u1fbpfcp-watermark.image', 1, '2022-09-15 01:00:00', '2022-09-15 01:00:00', '2022-09-15 01:00:00');
 
 
 -- 添加专栏文章

@@ -2,7 +2,7 @@
 <html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
   <div class="user-bg" th:fragment="user_info(userHome)">
     <div class="user-head">
-      <img th:src="${vo.userHome.photo}" class="user-head-img" />
+      <img th:src="@{/{photo}(photo=${vo.userHome.photo})}" class="user-head-img" />
       <div class="user-head-title-wrap">
         <div class="user-head-title-name" th:text="${userHome.userName}">
           用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名

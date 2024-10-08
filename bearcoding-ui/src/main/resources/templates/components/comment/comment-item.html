@@ -5,7 +5,12 @@
     <div class="comment-item-wrap">
       <div class="comment-item-top">
         <a th:href="${'/user/' + comment.userId}" target="_blank">
-          <img th:src="${comment.userPhoto}" class="comment-item-img" />
+<!--        <a th:href="@{/user/{userId}(userId=${reply.userId})}" target="_blank">-->
+<!--        <img th:src="${comment.userPhoto}" class="comment-item-img" />-->
+            <img th:src="'https://www.wangenhui.top/' + ${comment.userPhoto}" class="comment-item-img" />
+<!--            <img th:src="@{/${comment.userPhoto}}" class="comment-item-img" />-->
+<!--            <img th:src="${#httpServletRequest.contextPath + '/' + comment.userPhoto}" class="comment-item-img" />-->
+<!--                      <img th:src="@{/{photo}(photo=${comment.userPhoto})}" class="comment-item-img" />-->
         </a>
         <div class="common-item-content">
           <div class="common-item-content-head">
@@ -48,7 +53,18 @@
     >
       <div class="comment-item-top">
         <a th:href="${'/user/' + reply.userId}" target="_blank">
-          <img th:src="${reply.userPhoto}" class="comment-item-img" />
+<!--          <img th:src="@{/{photo}(photo=${reply.userPhoto})}" class="comment-item-img" />-->
+<!--          <img th:src="${reply.userPhoto}" class="comment-item-img" />-->
+<!--            <p>Request URL: <span th:text="${#request.requestURL}"></span></p>-->
+<!--            <p>Context Path: <span th:text="${#httpServletRequest.contextPath}"></span></p>-->
+
+<!--            <p>Image Source: <span th:text="${reply.userPhoto}"></span></p>-->
+            <img th:src="'https://www.wangenhui.top/' + ${reply.userPhoto}" class="comment-item-img" />
+<!--            <img th:src="${reply.userPhoto}" class="comment-item-img" />-->
+<!--            <img th:src="@{/forum/img/${reply.userPhoto}}" class="comment-item-img" />-->
+<!--            <img th:src="@{'/'+ ${reply.userPhoto}}" class="comment-item-img" />-->
+
+            <!--            <img th:src="${#httpServletRequest.contextPath + '/' + reply.userPhoto}" class="comment-item-img" />-->
         </a>
         <div class="common-item-content">
           <div class="common-item-content-head">

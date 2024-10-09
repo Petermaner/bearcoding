@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
   <div th:replace="components/layout/header :: head(~{::title}, ~{}, ~{})">
-    <title th:text="${vo.article.title} + '-技术派'">技术派</title>
+    <title th:text="${vo.article.title} + '-智汇'">智汇</title>
   </div>
 
   <link rel="stylesheet" href="/css/views/article-detail.css" th:href="${global.siteInfo.oss + '/css/views/article-detail.css'}" />
@@ -113,12 +113,20 @@
                   praisedCount += 1;
                   $("#praiseFloatBtn, #praiseBtn, #praiseFloatBtnMd").addClass("active")
 
-                  // 添加当前点赞用户的头像
-                  avatarList.prepend('' +
-                      '            <a class="g-user-popover approval-img" href="/user/' + currentUserId + '">\n' +
-                      '                <img src="' + currentUserAvatar + '">\n' +
-                      '            </a>')
-              } else {
+              //     // 添加当前点赞用户的头像
+              //     avatarList.prepend('' +
+              //         '            <a class="g-user-popover approval-img" href="/user/' + currentUserId + '">\n' +
+              //         '                <img src="' + currentUserAvatar + '">\n' +
+              //         '            </a>')
+              // }
+
+            // 添加当前点赞用户的头像
+            avatarList.prepend('' +
+                    '            <a class="g-user-popover approval-img" href="/user/' + currentUserId + '">\n' +
+                    '                <img src="' +'http://127.0.0.1:8080/' + currentUserAvatar + '">\n' +
+                    '            </a>')
+          }
+              else {
                   // 取消点赞
                   praisedCount -= 1;
                   $("#praiseFloatBtn, #praiseBtn, #praiseFloatBtnMd").removeClass("active")

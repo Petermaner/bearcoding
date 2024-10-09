@@ -31,7 +31,7 @@ public class UserAiDO extends BaseDO {
     private String starNumber;
 
     /**
-     * 星球来源 1=java进阶之路 2=技术派
+     * 星球来源 1=javaer 2=bearcoding
      */
     private Integer starType;
 

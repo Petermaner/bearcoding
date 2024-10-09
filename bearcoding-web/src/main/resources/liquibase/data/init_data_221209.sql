@@ -166,7 +166,7 @@ VALUES(1, 'a7cb7228-0f85-4dd5-845c-7c5df3746e92', 'admin', 'df3a4143b663a086d1c0
 
 INSERT INTO user_info
 (id, user_id, user_name, photo, `position`, company, profile, extend, deleted)
-VALUES(1, 1, '管理员', 'https://pic1.zhimg.com/80/v2-2501db8a5e0c27824bc11ec10aec29ab_720w.jpeg?source=d16d100b', 'Java', '电子科技大学', 'Coder', '', 0);
+VALUES(1, 1, '管理员', 'forum/img/BearKing.jpg', 'Java', '电子科技大学', 'Coder', '', 0);
 
 
 

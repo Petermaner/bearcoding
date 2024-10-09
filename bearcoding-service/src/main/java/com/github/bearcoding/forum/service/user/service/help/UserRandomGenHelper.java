@@ -74,8 +74,11 @@ public class UserRandomGenHelper {
      *
      * @return
      */
+//    public static String genAvatar() {
+//        return String.format(AVATAR_TEMPLATE, RANDOM.nextInt(AVATAR_NUM) + 1);
+//    }
     public static String genAvatar() {
-        return String.format(AVATAR_TEMPLATE, RANDOM.nextInt(AVATAR_NUM) + 1);
+        return "forum/img/0090.png";
     }
 
     /**

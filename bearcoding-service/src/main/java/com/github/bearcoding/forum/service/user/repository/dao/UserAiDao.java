@@ -125,7 +125,7 @@ public class UserAiDao extends ServiceImpl<UserAiMapper, UserAiDO> {
 
         // 这里有点问题
         // 用户名密码注册的时候，还没有审核通过，所以即使有星球编号，也无法绑定 AI 策略
-        // 去掉用户审核通过的判断，如果用户绑定了星球，就直接更新策略，默认为进阶之路
+        // 去掉用户审核通过的判断，如果用户绑定了星球，就直接更新策略，默认为Javaer
         // 后面获取册数的时候会根据用户的审核状态，计算次数
         if (StringUtils.isNotBlank(ai.getStarNumber())) {
             // 绑定了星球，且审核通过

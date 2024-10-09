@@ -15,8 +15,8 @@ insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('L
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('LoginType','1','用户名密码登录',2);
 
 
-insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('StarSource','0','Java进阶之路知识星球',1);
-insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('StarSource','1','技术派知识星球',2);
+insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('StarSource','0','Javaer知识星球',1);
+insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('StarSource','1','bearcoding知识星球',2);
 
 
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAIStat','-1','默认',1);
@@ -28,8 +28,8 @@ insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('U
 
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','1','绑定微信公众号',1);
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','2','绑定邀请人',2);
-insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','4','绑定Java进阶之路知识星球',3);
-insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','8','绑定技术派知识星球',4);
+insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','4','绑定Javaer知识星球',3);
+insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('UserAiStrategy','8','绑定bearcoding知识星球',4);
 
 
 insert into dict_common(`type_code`,`dict_code`,`dict_desc`,`sort_no`) values('ChatAnswerType','0','文本返回',1);

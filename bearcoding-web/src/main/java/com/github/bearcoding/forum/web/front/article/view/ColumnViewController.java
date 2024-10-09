@@ -195,6 +195,9 @@ public class ColumnViewController {
 
             // 如果没有绑定星球，则返回 10% 的内容
             // 10% 从全局的配置参数中获取
+//            System.out.println(globalViewConfig.getZsxqArticleReadCount());
+//            System.out.println("=============xxxxx==================");
+//            System.out.println(globalViewConfig.getNeedLoginArticleReadCount());
             int count = Integer.parseInt(globalViewConfig.getZsxqArticleReadCount());
             return content.substring(0, content.length() * count / 100);
         }

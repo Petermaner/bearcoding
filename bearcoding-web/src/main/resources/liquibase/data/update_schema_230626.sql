@@ -3,7 +3,7 @@ CREATE TABLE `user_ai`
     `id`              int unsigned NOT NULL AUTO_INCREMENT COMMENT '主键ID',
     `user_id`         int         NOT NULL DEFAULT '0' COMMENT '用户id',
     `star_number`     varchar(64) NOT NULL DEFAULT '0' COMMENT '知识星球编号',
-    `star_type`       tinyint     NOT NULL DEFAULT '0' COMMENT '星球来源 1=java进阶之路 2=技术派',
+    `star_type`       tinyint     NOT NULL DEFAULT '0' COMMENT '星球来源 1=Javaer 2=bearcoding',
     `inviter_user_id` int         NOT NULL DEFAULT '0' COMMENT '当前用户绑定的邀请者',
     `invite_code`     varchar(8)  NOT NULL DEFAULT '' COMMENT '邀请码',
     `invite_num`      int         NOT NULL DEFAULT '0' COMMENT '当前用户邀请的人数',

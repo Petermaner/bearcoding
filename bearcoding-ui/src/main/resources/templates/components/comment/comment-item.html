@@ -7,7 +7,7 @@
         <a th:href="${'/user/' + comment.userId}" target="_blank">
 <!--        <a th:href="@{/user/{userId}(userId=${reply.userId})}" target="_blank">-->
 <!--        <img th:src="${comment.userPhoto}" class="comment-item-img" />-->
-            <img th:src="'https://www.wangenhui.top/' + ${comment.userPhoto}" class="comment-item-img" />
+            <img th:src="'http://127.0.0.1:8080/' + ${comment.userPhoto}" class="comment-item-img" />
 <!--            <img th:src="@{/${comment.userPhoto}}" class="comment-item-img" />-->
 <!--            <img th:src="${#httpServletRequest.contextPath + '/' + comment.userPhoto}" class="comment-item-img" />-->
 <!--                      <img th:src="@{/{photo}(photo=${comment.userPhoto})}" class="comment-item-img" />-->
@@ -59,7 +59,7 @@
 <!--            <p>Context Path: <span th:text="${#httpServletRequest.contextPath}"></span></p>-->
 
 <!--            <p>Image Source: <span th:text="${reply.userPhoto}"></span></p>-->
-            <img th:src="'https://www.wangenhui.top/' + ${reply.userPhoto}" class="comment-item-img" />
+            <img th:src="'http://127.0.0.1:8080/' + ${reply.userPhoto}" class="comment-item-img" />
 <!--            <img th:src="${reply.userPhoto}" class="comment-item-img" />-->
 <!--            <img th:src="@{/forum/img/${reply.userPhoto}}" class="comment-item-img" />-->
 <!--            <img th:src="@{'/'+ ${reply.userPhoto}}" class="comment-item-img" />-->

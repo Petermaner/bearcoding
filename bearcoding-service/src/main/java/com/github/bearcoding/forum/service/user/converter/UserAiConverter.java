@@ -32,7 +32,7 @@ public class UserAiConverter {
         } else {
             userAiDO.setStarNumber(starNumber);
             userAiDO.setState(UserAIStatEnum.TRYING.getCode());
-            // 先只支持Java进阶之路的星球绑定
+            // 先只支持Javaer的星球绑定
             userAiDO.setStarType(StarSourceEnum.JAVA_GUIDE.getSource());
         }
         return userAiDO;

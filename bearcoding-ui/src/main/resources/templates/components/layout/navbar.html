@@ -248,7 +248,7 @@
               </p>
             </div>
           </div>
-          <div class="mock-login" th:if="${!#strings.equals(global.env, 'open')}">
+          <div class="mock-login" th:if="${!#strings.equals(global.env, 'prod')}">
             <!-- 非生产环境，使用模拟登陆  -->
             <button
                     id="mockLogin2"

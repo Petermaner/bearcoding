@@ -11,6 +11,6 @@ spring:
     servlet:
       content-type: text/html
     #cache: false # true # 开启缓存
-    cache: false
+    cache: true
 #chatgpt:
 #  key:

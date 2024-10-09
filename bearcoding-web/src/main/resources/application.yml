@@ -52,7 +52,7 @@ bearcoding:
 
 # 默认的数据库名 test
 database:
-  name: new_try_241006
+  name: proddb
 
 # mybatis 相关统一配置
 mybatis-plus:
